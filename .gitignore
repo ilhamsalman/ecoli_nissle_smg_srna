@@ -1,0 +1,9 @@
+# Do NOT track raw sequencing data
+fastq/
+sra_cache/
+ncbi/
+*.fastq
+*.fastq.gz
+
+# Temporary / backup files
+*~
