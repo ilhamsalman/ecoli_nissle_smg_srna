@@ -1,0 +1,15 @@
+##gff-version 3
+CP007799.1	ANNOgesic	RNA_thermometer	85357	85459	.	+	.	ID=CP007799.1_rna_thermometer0;Name=Phe_leader;rfam_id=RF01859;e_value=4.5e-05;score=24.1;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	RNA_thermometer	949117	949510	.	+	.	ID=CP007799.1_rna_thermometer1;Name=cspA;rfam_id=RF01766;e_value=4.3e-14;score=48.3;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	RNA_thermometer	1388479	1388528	.	+	.	ID=CP007799.1_rna_thermometer2;Name=FourU;rfam_id=RF01795;e_value=0.00011;score=18.5;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	RNA_thermometer	1775461	1775558	.	+	.	ID=CP007799.1_rna_thermometer3;Name=Phe_leader;rfam_id=RF01859;e_value=0.00075;score=18.5;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	RNA_thermometer	1887442	1887566	.	+	.	ID=CP007799.1_rna_thermometer4;Name=Phe_leader;rfam_id=RF01859;e_value=4.3e-16;score=74.4;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	RNA_thermometer	2065536	2065619	.	+	.	ID=CP007799.1_rna_thermometer5;Name=Phe_leader;rfam_id=RF01859;e_value=0.00066;score=18.4;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	RNA_thermometer	2525577	2525643	.	+	.	ID=CP007799.1_rna_thermometer6;Name=ROSE_3;rfam_id=RF02523;e_value=8.4e-05;score=18.2;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	RNA_thermometer	2710825	2710870	.	+	.	ID=CP007799.1_rna_thermometer7;Name=ROSE_2;rfam_id=RF01832;e_value=8.3e-05;score=18.0;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	RNA_thermometer	2849239	2849289	.	+	.	ID=CP007799.1_rna_thermometer8;Name=Phe_leader;rfam_id=RF01859;e_value=3.8e-05;score=23.1;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	RNA_thermometer	3308383	3308424	.	+	.	ID=CP007799.1_rna_thermometer9;Name=hsp17;rfam_id=RF02358;e_value=0.00062;score=16.6;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	RNA_thermometer	3633781	3633870	.	+	.	ID=CP007799.1_rna_thermometer10;Name=Phe_leader;rfam_id=RF01859;e_value=0.00029;score=20.2;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	RNA_thermometer	3635180	3635269	.	+	.	ID=CP007799.1_rna_thermometer11;Name=Phe_leader;rfam_id=RF01859;e_value=0.00029;score=20.2;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	RNA_thermometer	4175541	4175602	.	+	.	ID=CP007799.1_rna_thermometer12;Name=Phe_leader;rfam_id=RF01859;e_value=0.00078;score=17.5;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	RNA_thermometer	5126516	5126565	.	+	.	ID=CP007799.1_rna_thermometer13;Name=hsp17;rfam_id=RF02358;e_value=0.00067;score=16.8;method=infernal_to_Rfam

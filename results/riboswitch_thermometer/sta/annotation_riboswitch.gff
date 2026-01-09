@@ -1,0 +1,12 @@
+##gff-version 3
+CP007799.1	ANNOgesic	riboswitch	1047175	1047245	.	+	.	ID=CP007799.1_riboswitch0;Name=suhB;rfam_id=RF00519;e_value=0.00059;score=17.2;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	riboswitch	1104489	1104539	.	+	.	ID=CP007799.1_riboswitch1;Name=SAM_alpha;rfam_id=RF00521;e_value=0.00019;score=16.9;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	riboswitch	1339567	1339592	.	+	.	ID=CP007799.1_riboswitch2;Name=yybP-ykoY;rfam_id=RF00080;e_value=0.00088;score=9.6;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	riboswitch	2440552	2440588	.	+	.	ID=CP007799.1_riboswitch3;Name=suhB;rfam_id=RF00519;e_value=0.00011;score=18.9;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	riboswitch	2448777	2448873	.	+	.	ID=CP007799.1_riboswitch4;Name=TPP;rfam_id=RF00059;e_value=6.4e-17;score=71.2;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	riboswitch	3478183	3478348	.	+	.	ID=CP007799.1_riboswitch5;Name=speF;rfam_id=RF00518;e_value=0.00044;score=15.0;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	riboswitch	3946689	3946702	.	+	.	ID=CP007799.1_riboswitch6;Name=serC;rfam_id=RF00517;e_value=0.00028;score=14.5;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	riboswitch	4284186	4284250	.	+	.	ID=CP007799.1_riboswitch7;Name=suhB;rfam_id=RF00519;e_value=0.0001;score=20.1;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	riboswitch	4633258	4633358	.	+	.	ID=CP007799.1_riboswitch8;Name=TPP;rfam_id=RF00059;e_value=9.1e-18;score=74.8;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	riboswitch	4949360	4949475	.	+	.	ID=CP007799.1_riboswitch9;Name=Mg_sensor;rfam_id=RF01056;e_value=8.4e-30;score=125.8;method=infernal_to_Rfam
+CP007799.1	ANNOgesic	riboswitch	5280683	5280708	.	+	.	ID=CP007799.1_riboswitch10;Name=SAM-SAH;rfam_id=RF01727;e_value=0.00065;score=14.0;method=infernal_to_Rfam

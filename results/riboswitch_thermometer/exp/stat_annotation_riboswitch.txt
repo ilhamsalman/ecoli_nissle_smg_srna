@@ -1,0 +1,17 @@
+CP007799.1:
+Total number of potential riboswitch are 27
+The number of potential riboswitch which have overlap region with others are 0
+riboswitch_name	numbers
+TPP	3
+glmS	2
+suhB	11
+yybP-ykoY	1
+MOCO_RNA_motif	1
+SAM-SAH	2
+speF	1
+FMN	1
+serC	1
+Lysine	1
+Mg_sensor	1
+PreQ1	1
+drz-agam-1	1
