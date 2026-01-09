@@ -1,11 +1,49 @@
-# Do NOT track raw sequencing data
-fastq/
-sra_cache/
-ncbi/
+# --- big pipeline outputs (do not track) ---
+alignment/
+annogesic_exp/
+annogesic_sta/
+qc/
+
+# --- large sequencing/alignment artifacts ---
 *.fastq
 *.fastq.gz
+*.fq.gz
+*.sra
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
 
-# Temporary / backup files
+# --- coverage tracks ---
+*.wig
+*.wig.gz
+*.bw
+*.bigWig
+*.bedGraph
+*.bedgraph
+
+# --- analysis clutter / temporary dirs ---
+analysis/_trash/
+analysis/_archive/
+analysis/clean/
+
+# keep text tables, ignore office files
+analysis/**/*.xlsx
+analysis/**/*.docx
+
+# --- OS/editor junk ---
+.DS_Store
+Thumbs.db
 *~
+*.swp
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*:Zone.Identifier
 
-*Zone.Identifier*
+# --- keep GitHub clean: ignore archive/intermediate analysis dirs ---
+analysis/_archive/
+analysis/intermediates_exp/
+analysis/db/
