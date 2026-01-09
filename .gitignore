@@ -48,3 +48,4 @@ analysis/_archive/
 analysis/intermediates_exp/
 analysis/db/
 analysis/**/*.bed
+ref/
