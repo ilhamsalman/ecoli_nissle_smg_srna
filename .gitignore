@@ -51,3 +51,5 @@ analysis/**/*.bed
 ref/
 ref/
 analysis/supplementary/
+analysis/reference/genome.fasta
+analysis/reference/genome.fasta.fai
