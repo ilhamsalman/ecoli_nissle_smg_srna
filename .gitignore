@@ -50,3 +50,4 @@ analysis/db/
 analysis/**/*.bed
 ref/
 ref/
+analysis/supplementary/
