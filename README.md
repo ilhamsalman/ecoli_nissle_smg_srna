@@ -74,7 +74,7 @@ This repository documents the analysis steps performed on GSE147272 RNA-seq data
    - Tool: samtools
 
 8. **BAM to Wig (annogesic prepararion)**
-   - Script: `scripts/bam_to_wig.sh`
+   - Script: `scripts/bam_to_wig_RF.sh`
    - Library strandedness was assessed using RSeQC `infer_strandedness.sh`, which inferred a strand-specific, reverse-stranded (RF) library (~97.7% of reads consistent).  
 - Strand-specific plus/minus WIG coverage tracks were generated accordingly and used as input for ANNOgesic.
 
