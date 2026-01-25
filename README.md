@@ -31,3 +31,17 @@ Normal gravity (NG)
 Exponential phase: SRR11357514, SRR11357515
 
 Stationary phase: SRR11357516, SRR11357517
+
+## Sample mapping
+
+| sample_id | SRR         | growth_phase | gravity |
+|-----------|-------------|--------------|---------|
+| MG_exp_1  | SRR11357510 | exponential  | MG |
+| MG_exp_2  | SRR11357511 | exponential  | MG |
+| MG_sta_1  | SRR11357512 | stationary   | MG |
+| MG_sta_2  | SRR11357513 | stationary   | MG |
+| NG_exp_1  | SRR11357514 | exponential  | NG |
+| NG_exp_2  | SRR11357515 | exponential  | NG |
+| NG_sta_1  | SRR11357516 | stationary   | NG |
+| NG_sta_2  | SRR11357517 | stationary   | NG |
+
