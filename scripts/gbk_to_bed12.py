@@ -1,4 +1,10 @@
-#!/usr/bin/env python3
+# Utility script: Convert GenBank annotations to BED12 format
+#
+# Purpose:
+#   Export annotated genomic features 
+#   from a GenBank file into BED12 format for visualization and
+#   coordinate-based comparison with RNA-seq coverage and ANNOgesic results.
+#
 import sys
 from Bio import SeqIO
 
