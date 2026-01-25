@@ -45,7 +45,7 @@ Stationary phase: SRR11357516, SRR11357517
 | NG_sta_1  | SRR11357516 | stationary   | NG |
 | NG_sta_2  | SRR11357517 | stationary   | NG |
 
-## Workflow (what was done, in order)
+## Workflow 
 
 This repository documents the analysis steps performed on GSE147272 RNA-seq data for sRNA identification in *E. coli* Nissle 1917.
 
