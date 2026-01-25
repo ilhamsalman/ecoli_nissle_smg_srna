@@ -74,9 +74,11 @@ This repository documents the analysis steps performed on GSE147272 RNA-seq data
    
 7. **BAM processing**
    - Tool: samtools
- 
 
-8. **sRNA annotation / downstream analysis**
+8. **BAM to Wig (annogesic prepararion)**
+   - Script: `scripts/bam_to_wig.sh`
+
+9. **sRNA annotation / downstream analysis**
    - Script: `scripts/annogesic_exp.sh`
    - Tool: ANNOgesic
    - Output: analysis outputs (see results/ or analysis/ )
