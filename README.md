@@ -51,36 +51,32 @@ This repository documents the analysis steps performed on GSE147272 RNA-seq data
 
 1. **FASTQ retrieval from SRA (SRR accessions)**
    - Script: `scripts/download_fastq.sh`
-   - Input: `meta/samples_nissle_GSE147272.tsv` (SRR column)
-   - Output (not tracked): downloaded FASTQ files
+
 
 2. **Quality control on raw reads**
    - Tool(s): FastQC, MultiQC
-   - Output (not tracked): FastQC reports and MultiQC summary
-
+ 
 3. **Read trimming**
    - Script: `scripts/trim_fastp.sh`
    - Tool: fastp
-   - Output (not tracked): trimmed FASTQ files + fastp reports
+
 
 4. **Quality control on trimmed reads**
    - Tool(s): FastQC, MultiQC
-   - Output (not tracked): FastQC reports and MultiQC summary
+   
 
 5. **Reference preparation**
    - Reference: CP007799.1
-   - Tool: Bowtie2 (index build)
-   - Output (not tracked): Bowtie2 index files
+     
 
 6. **Read alignment**
    - Tool: Bowtie2
-   - Output (not tracked): SAM/BAM intermediate files
-
+   
 7. **BAM processing**
    - Tool: samtools
-   - Output (generated locally): `*.sorted.bam` and `*.sorted.bam.bai`
+ 
 
 8. **sRNA annotation / downstream analysis**
    - Script: `scripts/annogesic_exp.sh`
    - Tool: ANNOgesic
-   - Output: analysis outputs (see results/ or analysis/ as applicable)
+   - Output: analysis outputs (see results/ or analysis/ )
