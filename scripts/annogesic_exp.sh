@@ -1,3 +1,9 @@
+# NOTE:
+# This script documents the ANNOgesic workflow for the exponential phase.
+# The same analysis steps were repeated independently for the stationary phase
+# using the corresponding stationary-phase WIG files and a separate project
+# directory (annogesic_sta), following the identical command structure.
+
 #!/usr/bin/env bash
 set -euo pipefail
 
