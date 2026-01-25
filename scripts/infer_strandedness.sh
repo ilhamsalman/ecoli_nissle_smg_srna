@@ -9,9 +9,9 @@
 #   - Used to determine whether the library is unstranded, FR, or RF
 #   - In this study, libraries were inferred as strand-specific, reverse-stranded (RF)
 #     with ~97.7% consistency
-#   - This step justifies strand handling in bam_to_wig_RF.sh
 
 # Example command used:
 infer_experiment.py \
   -i alignment/bam/SRR11357510.sorted.bam \
-  -r meta/annotation.gtf
+  -r ref/EcN_ASM71459v1.gtf
+
