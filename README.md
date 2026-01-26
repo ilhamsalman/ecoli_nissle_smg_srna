@@ -78,7 +78,12 @@ This repository documents the analysis steps performed on GSE147272 RNA-seq data
    - Library strandedness was assessed using RSeQC `infer_strandedness.sh`, which inferred a strand-specific, reverse-stranded (RF) library (~97.7% of reads consistent).  
 - Strand-specific plus/minus WIG coverage tracks were generated accordingly and used as input for ANNOgesic.
 
-9. **sRNA annotation / downstream analysis**
+9. **sRNA annotation **
    - Script: `scripts/annogesic_exp.sh`
    - Tool: ANNOgesic
+   - Output: analysis outputs (see results/ )
+  
+10. **sRNA downstream analysis**
+   - Script: 
+   - Tool: 
    - Output: analysis outputs (see results/ or analysis/ )
