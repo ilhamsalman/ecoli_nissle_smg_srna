@@ -47,43 +47,43 @@ Stationary phase: SRR11357516, SRR11357517
 
 This repository documents the analysis steps performed on GSE147272 RNA-seq data for sRNA identification in *E. coli* Nissle 1917.
 
-1. **FASTQ retrieval from SRA (SRR accessions)**
+ **FASTQ retrieval from SRA (SRR accessions)**
    - Script: `scripts/download_fastq.sh`
 
 
-2. **Quality control on raw reads**
+ **Quality control on raw reads**
    - Tool(s): FastQC, MultiQC
  
-3. **Read trimming**
+ **Read trimming**
    - Script: `scripts/trim_fastp.sh`
    - Tool: fastp
 
 
-4. **Quality control on trimmed reads**
+ **Quality control on trimmed reads**
    - Tool(s): FastQC, MultiQC
    
 
-5. **Reference preparation**
+ **Reference preparation**
    - Reference: CP007799.1
      
 
-6. **Read alignment**
+**Read alignment**
    - Tool: Bowtie2
    
-7. **BAM processing**
+ **BAM processing**
    - Tool: samtools
 
-8. **BAM to Wig (annogesic prepararion)**
+ **BAM to Wig (annogesic prepararion)**
    - Script: `scripts/bam_to_wig_RF.sh`
    - Library strandedness was assessed using RSeQC `infer_strandedness.sh`, which inferred a strand-specific, reverse-stranded (RF) library (~97.7% of reads consistent).  
 - Strand-specific plus/minus WIG coverage tracks were generated accordingly and used as input for ANNOgesic.
 
-9. **sRNA annotation **
+ **sRNA annotation **
    - Script: `scripts/annogesic_exp.sh`
    - Tool: ANNOgesic
    - Output: analysis outputs (see results/ )
   
-10. **sRNA downstream analysis**
+ **sRNA downstream analysis**
    - Script: 
    - Tool: 
    - Output: analysis outputs (see results/ or analysis/ )
