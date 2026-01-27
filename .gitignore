@@ -53,3 +53,13 @@ ref/
 analysis/supplementary/
 analysis/reference/genome.fasta
 analysis/reference/genome.fasta.fai
+*.save
+*~
+# large / derived analysis outputs
+srna_analysis/
+intarna/
+
+# common junk
+*.save
+*~
+.DS_Store
