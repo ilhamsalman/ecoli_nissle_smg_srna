@@ -63,3 +63,4 @@ intarna/
 *.save
 *~
 .DS_Store
+*.save
