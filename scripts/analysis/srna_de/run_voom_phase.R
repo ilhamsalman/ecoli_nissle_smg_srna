@@ -5,18 +5,23 @@ suppressPackageStartupMessages({
 })
 
 args <- commandArgs(trailingOnly = TRUE)
-if (length(args) < 6) {
-  stop("Usage: Rscript run_voom_phase.R <counts_file> <phase_label> <annogesic_csv> <out_all_csv> <out_sig_csv> <out_volcano_png>")
+if (length(args) < 7) {
+  stop("Usage: Rscript run_voom_phase.R <counts_file> <annogesic_table> <phase_prefix> <phase_label> <out_all_csv> <out_sig_csv> <out_volcano_png>\n",
+       "Example:\n",
+       "  Rscript run_voom_phase.R counts_exp_frac.txt srna_exponential.csv exp__ exponential out_all.csv out_sig.csv volcano.png")
 }
 
 counts_file   <- args[1]
-phase_label   <- args[2]   # "exp" or "sta" (or "exponential"/"stationary" if your IDs match)
-annogesic_csv <- args[3]
-out_all_csv   <- args[4]
-out_sig_csv   <- args[5]
-out_volcano   <- args[6]
+anno_file     <- args[2]
+phase_prefix  <- args[3]   # e.g. "exp__" or "sta__" (must match Geneid prefix in counts)
+phase_label   <- args[4]   # e.g. "exponential" or "stationary" (for a column in output)
+out_all_csv   <- args[5]
+out_sig_csv   <- args[6]
+out_volcano   <- args[7]
 
-# ---- read featureCounts output ----
+# ----------------------------
+# 1) Read featureCounts output
+# ----------------------------
 fc <- read.delim(counts_file, comment.char = "#", check.names = FALSE)
 
 cts <- fc[, 7:ncol(fc)]
@@ -25,73 +30,97 @@ cts <- as.matrix(cts)
 rownames(cts) <- fc$Geneid
 colnames(cts) <- colnames(fc)[7:ncol(fc)]
 
-# Expect 4 samples: MG, MG, NG, NG (in that exact order)
+# Expect 4 samples in order: MG, MG, NG, NG
 group <- factor(c("MG", "MG", "NG", "NG"))
 design <- model.matrix(~ group)
 
-# ---- voom-limma pipeline ----
-y <- DGEList(counts = cts)
+# ----------------------------
+# 2) edgeR object + filtering
+# ----------------------------
+y <- DGEList(counts = cts, group = group)
 keep <- filterByExpr(y, design)
 y <- y[keep, , keep.lib.sizes = FALSE]
 y <- calcNormFactors(y)
 
+# ----------------------------
+# 3) voom-limma DE
+# ----------------------------
 v <- voom(y, design, plot = FALSE)
 fit <- lmFit(v, design)
 fit <- eBayes(fit)
 
-# coef groupNG is (NG - MG)
+# limma coef "groupNG" is NG - MG
 tab <- topTable(fit, coef = "groupNG", number = Inf, sort.by = "P")
+
+# Convert to SMG effect = MG - NG (flip sign)
+tab$logFC <- -tab$logFC
+
 tab$Geneid <- rownames(tab)
+tab$phase <- phase_label
 
-# ---- SMG effect (MG - NG) ----
-# Convert (NG - MG) into (MG - NG) by flipping sign
-tab$logFC_SMG <- -tab$logFC
+tab$direction <- ifelse(tab$adj.P.Val < 0.05 & abs(tab$logFC) >= 1,
+                        ifelse(tab$logFC > 0, "Up (SMG)", "Down (SMG)"),
+                        "NotSig")
 
-tab$SMG_direction <- "NotSig"
-tab$SMG_direction[tab$adj.P.Val < 0.05 & tab$logFC_SMG >=  1] <- "Up (SMG)"
-tab$SMG_direction[tab$adj.P.Val < 0.05 & tab$logFC_SMG <= -1] <- "Down (SMG)"
+# ----------------------------
+# 4) Read ANNOgesic table and merge sRNA type
+# ----------------------------
+# Your ANNOgesic files are tab-delimited but named .csv
+anno <- tryCatch(
+  read.delim(anno_file, sep = "\t", header = TRUE, check.names = FALSE, stringsAsFactors = FALSE),
+  error = function(e) read.csv(anno_file, header = TRUE, check.names = FALSE, stringsAsFactors = FALSE)
+)
 
-# ---- attach ANNOgesic annotation: sRNA_types (antisense/intergenic/...) ----
-anno <- read.delim(annogesic_csv, stringsAsFactors = FALSE, check.names = FALSE)
+# We need at least Name and sRNA_types. If sRNA_types missing, we'll still run.
+if (!("Name" %in% colnames(anno))) {
+  stop("ANNOgesic table must contain a column named 'Name'. Columns found: ",
+       paste(colnames(anno), collapse = ", "))
+}
 
-# FeatureCounts Geneid looks like exp__sRNA_XXXXX or sta__sRNA_XXXXX
-# Make join key srna_id = sRNA_XXXXX
-tab$srna_id <- sub("^(exp|sta)__", "", tab$Geneid)
+anno$Geneid <- paste0(phase_prefix, anno$Name)
 
-# Ensure required cols exist
-if (!("Name" %in% colnames(anno))) stop("ANNOgesic file must contain column: Name")
-if (!("sRNA_types" %in% colnames(anno))) stop("ANNOgesic file must contain column: sRNA_types")
+# Pick type column if present
+type_col <- NULL
+if ("sRNA_types" %in% colnames(anno)) type_col <- "sRNA_types"
+if (is.null(type_col) && "sRNA_type" %in% colnames(anno)) type_col <- "sRNA_type"
+if (is.null(type_col)) {
+  # create empty column so downstream is consistent
+  anno$sRNA_types <- NA
+  type_col <- "sRNA_types"
+}
 
-anno_sub <- unique(anno[, c("Name", "sRNA_types")])
-colnames(anno_sub) <- c("srna_id", "sRNA_types")
+anno_keep <- unique(anno[, c("Geneid", type_col)])
 
-tab2 <- merge(tab, anno_sub, by = "srna_id", all.x = TRUE, sort = FALSE)
+tab2 <- merge(tab, anno_keep, by = "Geneid", all.x = TRUE)
+colnames(tab2)[colnames(tab2) == type_col] <- "sRNA_types"
 
-# add phase label column (nice for combined downstream)
-tab2$phase <- phase_label
+# Order columns nicely
+tab2 <- tab2[, c("Geneid", "phase", "sRNA_types",
+                 "logFC", "AveExpr", "t", "P.Value", "adj.P.Val", "B", "direction")]
 
-# ---- write outputs ----
-# full table
+# ----------------------------
+# 5) Write outputs
+# ----------------------------
 write.csv(tab2, out_all_csv, row.names = FALSE)
 
-# significant table (FDR<0.05 and abs(logFC_SMG)>=1)
-sig <- tab2[tab2$adj.P.Val < 0.05 & abs(tab2$logFC_SMG) >= 1, ]
+sig <- tab2[tab2$adj.P.Val < 0.05 & abs(tab2$logFC) >= 1, ]
 write.csv(sig, out_sig_csv, row.names = FALSE)
 
 cat("Done.\n", sep = "")
-cat("Total tested:", nrow(tab2), "\n", sep = " ")
-cat("Significant (FDR<0.05 & |logFC_SMG|>=1):", nrow(sig), "\n", sep = " ")
+cat("Significant (FDR<0.05 & |logFC|>=1): ", nrow(sig), "\n", sep = "")
 
-# ---- volcano plot (SMG effect) ----
-p <- ggplot(tab2, aes(x = logFC_SMG, y = -log10(P.Value), color = SMG_direction)) +
-  geom_point(size = 1, alpha = 0.7) +
+# ----------------------------
+# 6) Volcano plot (SMG: MG - NG)
+# ----------------------------
+p <- ggplot(tab2, aes(x = logFC, y = -log10(P.Value))) +
+  geom_point(alpha = 0.7, size = 1) +
   geom_vline(xintercept = c(-1, 1), linetype = "dashed") +
   geom_hline(yintercept = -log10(0.05), linetype = "dashed") +
   labs(
-    title = paste0("Volcano: SMG (MG - NG) effect — ", phase_label),
+    title = paste0("Volcano: SMG effect (MG - NG) - ", phase_label),
     x = "log2FC (MG - NG)",
-    y = "-log10(p-value)"
+    y = "-log10(P-value)"
   ) +
   theme_bw()
 
-ggsave(out_volcano, p, width = 7, height = 6, dpi = 200)
+ggsave(out_volcano, p, width = 7, height = 6, dpi = 300)
