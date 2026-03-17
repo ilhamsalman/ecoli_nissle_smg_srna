@@ -1,0 +1,9 @@
+# Conservation Analysis Summary
+# sRNA conservation across E. coli strains
+
+sRNA_ID	Nissle	K12_MG1655	O157_H7	CFT073	Conservation_Class	Best_Identity	Notes
+SgrS	100.0	88.4	-	-	Partially conserved	88.4	-
+exp_sRNA_00170	100.0	97.5	-	-	Highly conserved	97.5	-
+exp_sRNA_00172	100.0	98.5	-	-	Highly conserved	98.5	-
+rdlD	100.0	97.0	-	94.6	Highly conserved	97.0	-
+rydB	100.0	94.6	-	-	Highly conserved	94.6	-

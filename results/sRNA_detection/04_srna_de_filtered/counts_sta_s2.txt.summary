@@ -1,0 +1,15 @@
+Status	annogesic_sta/input/BAMs/BAMs_map_reference_genomes/fragment/MG_sta_1.bam	annogesic_sta/input/BAMs/BAMs_map_reference_genomes/fragment/MG_sta_2.bam	annogesic_sta/input/BAMs/BAMs_map_reference_genomes/fragment/NG_sta_1.bam	annogesic_sta/input/BAMs/BAMs_map_reference_genomes/fragment/NG_sta_2.bam
+Assigned	1749936	1462369	724915	641024
+Unassigned_Unmapped	11255	12686	10743	13270
+Unassigned_Read_Type	0	0	0	0
+Unassigned_Singleton	5875	7863	6206	5679
+Unassigned_MappingQuality	0	0	0	0
+Unassigned_Chimera	10315	10263	7972	8891
+Unassigned_FragmentLength	0	0	0	0
+Unassigned_Duplicate	0	0	0	0
+Unassigned_MultiMapping	0	0	0	0
+Unassigned_Secondary	0	0	0	0
+Unassigned_NonSplit	0	0	0	0
+Unassigned_NoFeatures	4226958	3886494	3309182	3021363
+Unassigned_Overlapping_Length	0	0	0	0
+Unassigned_Ambiguity	680	4285	545	704

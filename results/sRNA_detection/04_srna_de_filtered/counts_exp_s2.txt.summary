@@ -1,0 +1,15 @@
+Status	annogesic_exp/input/BAMs/BAMs_map_reference_genomes/fragment/MG_exp_1.bam	annogesic_exp/input/BAMs/BAMs_map_reference_genomes/fragment/MG_exp_2.bam	annogesic_exp/input/BAMs/BAMs_map_reference_genomes/fragment/NG_exp_1.bam	annogesic_exp/input/BAMs/BAMs_map_reference_genomes/fragment/NG_exp_2.bam
+Assigned	496306	743148	462042	557759
+Unassigned_Unmapped	18606	17841	19164	16543
+Unassigned_Read_Type	0	0	0	0
+Unassigned_Singleton	12124	16473	15672	13338
+Unassigned_MappingQuality	0	0	0	0
+Unassigned_Chimera	9226	9221	19521	7489
+Unassigned_FragmentLength	0	0	0	0
+Unassigned_Duplicate	0	0	0	0
+Unassigned_MultiMapping	0	0	0	0
+Unassigned_Secondary	0	0	0	0
+Unassigned_NonSplit	0	0	0	0
+Unassigned_NoFeatures	5065803	5583632	4502190	4867599
+Unassigned_Overlapping_Length	0	0	0	0
+Unassigned_Ambiguity	26079	56929	24460	22711

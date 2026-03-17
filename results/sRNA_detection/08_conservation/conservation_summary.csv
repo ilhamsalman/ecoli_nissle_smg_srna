@@ -1,0 +1,13 @@
+Group,sRNA,K12_pident,O157_pident,CFT073_pident,Status
+Known (stationary),SgrS,88.4,99.9,100.0,Highly conserved
+Known (stationary),rydB,94.6,94.2,100.0,Highly conserved
+Known (stationary),rdlD,97.0,97.3,100.0,Highly conserved
+Novel antisense (exp),exp_sRNA_00170,97.5,96.9,100.0,Highly conserved
+Novel antisense (exp),exp_sRNA_00172,98.5,97.1,100.0,Highly conserved
+Novel intergenic (exp),exp_sRNA_02152,N/A,N/A,100.0,Partially conserved
+Novel intergenic (sta)-TAT,sta_sRNA_00458,97.3,97.3,100.0,Highly conserved
+Novel intergenic (sta)-stpA,sta_sRNA_00470,98.9,98.5,100.0,Highly conserved
+Novel intergenic (sta)-TAT,sta_sRNA_00504,100.0,99.7,97.2,Highly conserved
+Novel intergenic (sta),sta_sRNA_00850,100.0,100.0,100.0,Highly conserved
+Novel intergenic (sta),sta_sRNA_00890,90.7,98.9,100.0,Highly conserved
+Novel intergenic (sta)-TAT,sta_sRNA_00946,N/A,N/A,100.0,Partially conserved

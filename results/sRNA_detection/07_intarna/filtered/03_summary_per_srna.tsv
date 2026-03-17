@@ -1,0 +1,10 @@
+srna	priority	n_total	n_strong	n_moderate	best_dG	best_target	strong_targets
+sta_sRNA_00504	P3_intergenic_sta	209	73	129	-24.34	yajO	yajO;hycE;cbl;edd;yacL;lrgA;tatC;hisG;mepM;metQ
+sta_sRNA_00890	P3_intergenic_sta	209	72	124	-23.62	ECOLIN_12624	ECOLIN_12624;ECOLIN_06225;ECOLIN_19480;metQ;rstA;yhdX;ECOLIN_32829;glmM;cysH;ygbE
+sta_sRNA_00470	P3_intergenic_sta	209	22	131	-21.83	stpA	stpA;rfaG;cysC;lysS;ECOLIN_22485;recQ;cbl;dsbG;ghrB;ppa
+sta_sRNA_00946	P3_intergenic_sta	209	14	124	-21.18	tatB	tatB;ECOLIN_13989;yacL;yehW;ECOLIN_04245;serC;ghrB;hspQ;metK;cysD
+sta_sRNA_00458	P3_intergenic_sta	209	23	135	-20.52	htpX	htpX;ECOLIN_32829;pncB;gltX_2;recF;ECOLIN_01860;rimM;cysM;solA;pcnB
+sta_sRNA_00850	P3_intergenic_sta	209	9	150	-19.84	dsbG	dsbG;aroA;manA;caiC;clbC;irp9;bluF;HMWP2;ECOLIN_25457
+exp_sRNA_00170	P1_leuC_antisense	1	1	0	-15.04	leuC	leuC
+exp_sRNA_02152	P2_intergenic_exp	89	0	9	-13.94	copA	
+exp_sRNA_00172	P1_leuC_antisense	1	0	1	-13.45	leuC	
