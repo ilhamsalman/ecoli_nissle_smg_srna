@@ -76,3 +76,6 @@ intarna/
 *.not
 *.ntf
 *.nto
+
+# Ignore analysis scratch / notebooks
+analysis/
