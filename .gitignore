@@ -64,3 +64,8 @@ intarna/
 *~
 .DS_Store
 *.save
+
+# BLAST database index files
+*.nhr
+*.nin
+*.nsq
