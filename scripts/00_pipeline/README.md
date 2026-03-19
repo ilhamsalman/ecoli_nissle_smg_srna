@@ -1,4 +1,4 @@
-# 01_pipeline — RNA-seq preprocessing and alignment
+# 00_pipeline — RNA-seq preprocessing and alignment
 
 This folder contains the core preprocessing steps used to generate alignments (BAM) and strand-specific coverage tracks (WIG) for downstream ANNOgesic analysis.
 
