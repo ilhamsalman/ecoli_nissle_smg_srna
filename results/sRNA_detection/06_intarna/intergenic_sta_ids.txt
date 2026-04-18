@@ -1,0 +1,7 @@
+sta_sRNA_00457
+sta_sRNA_00503
+sta_sRNA_00141
+sta_sRNA_00891
+sta_sRNA_00559
+sta_sRNA_00609
+sta_sRNA_00520

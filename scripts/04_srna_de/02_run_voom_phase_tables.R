@@ -11,10 +11,10 @@ if (length(args) < 5) {
     "  Rscript run_voom_phase_tables.R <counts_file> <annogesic_table> <phase_prefix> <phase_label> <out_prefix>\n\n",
     "Example:\n",
     "  Rscript run_voom_phase_tables.R \\\n",
-    "    results/sRNA_detection/03_srna_de/counts_exp_s1.txt \\\n",
-    "    results/sRNA_detection/01_annogesic/srna_exponential.csv \\\n",
+    "    results/sRNA_detection/04_srna_de_filtered/counts_exp_s2.txt \\\n",
+    "    results/sRNA_detection/02_filter/srna_exponential.filtered.tsv \\\n",
     "    exp__ exponential \\\n",
-    "    results/sRNA_detection/03_srna_de/voom_exp_s1\n"
+    "    results/sRNA_detection/04_srna_de_filtered/voom_exp_s2\n"
   )
 }
 
@@ -22,10 +22,10 @@ counts_file  <- args[1]
 anno_file    <- args[2]
 phase_prefix <- args[3]   # exp__ or sta__
 phase_label  <- args[4]   # exponential / stationary
-out_prefix   <- args[5]   # e.g. results/.../voom_exp_s1  (no extension)
+out_prefix   <- args[5]   # e.g. results/.../voom_exp_s2  (no extension)
 
-out_all_csv <- paste0(out_prefix, "_all.csv")
-out_sig_csv <- paste0(out_prefix, "_significant.csv")
+out_all_csv        <- paste0(out_prefix, "_all.csv")
+out_candidates_csv <- paste0(out_prefix, "_candidates.csv")
 
 # ----------------------------
 # helpers
@@ -108,19 +108,15 @@ all_df <- data.frame(
   stringsAsFactors = FALSE
 )
 
-tab$core_p <- tab$P.Value
-tab$core_fdr <- tab$adj.P.Val
-
 tab2 <- tab[, c("Geneid","logFC","AveExpr","t","P.Value","adj.P.Val","B")]
 all_df <- merge(all_df, tab2, by = "Geneid", all.x = TRUE)
 
-# Direction (SMG effect) — you said “all FDR-significant loci”, so |logFC| cutoff = 0.
-all_df$direction <- "Not significant"
-all_df$direction[!is.na(all_df$adj.P.Val) & all_df$adj.P.Val <= 0.05 & all_df$logFC > 0] <- "Up (SMG)"
-all_df$direction[!is.na(all_df$adj.P.Val) & all_df$adj.P.Val <= 0.05 & all_df$logFC < 0] <- "Down (SMG)"
-
-# For filtered-out rows, make it explicit
+# Direction based on logFC for all tested loci
+all_df$direction <- NA
 all_df$direction[all_df$passed_filter == FALSE] <- "Not tested (filtered out)"
+all_df$direction[all_df$passed_filter == TRUE & !is.na(all_df$logFC) & all_df$logFC > 0] <- "Up (SMG)"
+all_df$direction[all_df$passed_filter == TRUE & !is.na(all_df$logFC) & all_df$logFC < 0] <- "Down (SMG)"
+all_df$direction[all_df$passed_filter == TRUE & !is.na(all_df$logFC) & all_df$logFC == 0] <- "No change"
 
 # ----------------------------
 # 5) Read ANNOgesic table + add sRNA_types
@@ -159,8 +155,16 @@ all_df <- all_df[, c("Geneid","phase","sRNA_types","passed_filter",
 # ----------------------------
 write.csv(all_df, out_all_csv, row.names = FALSE)
 
-sig <- all_df[!is.na(all_df$adj.P.Val) & all_df$adj.P.Val <= 0.05 & all_df$passed_filter == TRUE, ]
-write.csv(sig, out_sig_csv, row.names = FALSE)
+candidates <- all_df[
+  !is.na(all_df$P.Value) &
+  all_df$P.Value < 0.05 &
+  all_df$passed_filter == TRUE,
+]
 
-cat("Significant (FDR<=0.05, |logFC|>=0): ", nrow(sig), "\n", sep="")
-cat("Wrote:\n  ", out_all_csv, "\n  ", out_sig_csv, "\n", sep="")
+# sort by raw p-value, then by absolute effect size
+candidates <- candidates[order(candidates$P.Value, -abs(candidates$logFC)), ]
+
+write.csv(candidates, out_candidates_csv, row.names = FALSE)
+
+cat("Candidates (passed_filter=TRUE, raw P.Value<0.05): ", nrow(candidates), "\n", sep="")
+cat("Wrote:\n  ", out_all_csv, "\n  ", out_candidates_csv, "\n", sep="")
