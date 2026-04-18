@@ -114,21 +114,21 @@ The analysis is organized into numbered stages under `scripts/`.
 ### 06 — sRNA–mRNA interaction prediction
 
 * IntaRNA analysis
-  `scripts/07_intarna/`
+  `scripts/06_intarna/`
 
 ---
 
 ### 07 — Conservation analysis
 
 * Genome collection and BLAST analysis
-  `scripts/08_conservation/`
+  `scripts/07_conservation/`
 
 ---
 
-### 08 — Visualization
+###  Visualization
 
-* PCA, heatmaps, volcano plots, Venn diagrams
-  `scripts/09_figures/`
+* volcano plots, Venn diagrams
+  `scripts/figures/`
 
 ---
 
