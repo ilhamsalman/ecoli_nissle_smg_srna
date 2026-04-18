@@ -125,10 +125,10 @@ The analysis is organized into numbered stages under `scripts/`.
 
 ---
 
-###  Visualization
+### 08 —  Visualization
 
 * volcano plots, Venn diagrams
-  `scripts/figures/`
+  `scripts/08_figures/`
 
 ---
 
