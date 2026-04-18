@@ -108,31 +108,24 @@ The analysis is organized into numbered stages under `scripts/`.
 * Annotation and filtering
   `scripts/05_annotate_known_srna/`
 
----
-
-### 06 — sRNA DEG overlap analysis
-
-* Antisense overlap detection
-* Expression pattern comparison
-  `scripts/06_srna_deg/`
 
 ---
 
-### 07 — sRNA–mRNA interaction prediction
+### 06 — sRNA–mRNA interaction prediction
 
 * IntaRNA analysis
   `scripts/07_intarna/`
 
 ---
 
-### 08 — Conservation analysis
+### 07 — Conservation analysis
 
 * Genome collection and BLAST analysis
   `scripts/08_conservation/`
 
 ---
 
-### 09 — Visualization
+### 08 — Visualization
 
 * PCA, heatmaps, volcano plots, Venn diagrams
   `scripts/09_figures/`
@@ -143,12 +136,6 @@ The analysis is organized into numbered stages under `scripts/`.
 
 * NCBI accession: **CP007799.1**
 * Used for alignment and annotation steps
-
----
-
-## Notes
-
-* BLAST index files and other intermediate outputs are not tracked in the repository.
 
 ---
 
