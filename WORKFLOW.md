@@ -5,7 +5,7 @@
 This workflow describes the stepwise analysis of RNA-seq data from
 *Escherichia coli* Nissle 1917 under simulated microgravity (SMG) versus normal gravity (NG).
 
-The pipeline is organized into modular stages, each of which can be executed independently.
+The pipeline is organized into numbered analysis stages. Scripts may require inputs produced by earlier stages; review script configuration and input paths before execution. The commands below identify the scripts present in this repository.
 
 ---
 
@@ -32,6 +32,7 @@ The pipeline is organized into modular stages, each of which can be executed ind
 ### Scripts
 
 ```bash
+bash scripts/00_pipeline/01_download_fastq.sh
 bash scripts/00_pipeline/02_trim_fastq.sh
 bash scripts/00_pipeline/03_align_bowtie2.sh
 bash scripts/00_pipeline/04_infer_strandedness.sh
@@ -97,7 +98,7 @@ python scripts/02_filter/filter_annogesic_srna.py
 
 ### Outputs
 
-* Filtered sRNA annotations
+* Filtered sRNA annotations in `results/sRNA_detection/02_filter/`
 
 ---
 
@@ -121,8 +122,7 @@ python scripts/03_shared_srna/shared_srna_from_saf.py
 
 ### Outputs
 
-* SAF files
-* Shared sRNA tables
+* SAF files and shared-locus tables in `results/sRNA_detection/03_shared_filtered/`
 
 ---
 
@@ -145,13 +145,13 @@ python scripts/03_shared_srna/shared_srna_from_saf.py
 ```bash
 bash scripts/04_srna_de/01_run_featurecounts_filtered.sh
 Rscript scripts/04_srna_de/02_run_voom_phase_tables.R
-Rscript scripts/04_srna_de/03_compare_sig_exp_sta_by_SAF.R
+Rscript scripts/04_srna_de/03_compare_candidates_exp_sta_by_SAF.R
 ```
 
 ### Outputs
 
 * Count matrices
-* Differential expression tables
+* Differential expression tables, including complete results in `results/sRNA_detection/04_srna_de_filtered/`
 
 ---
 
@@ -186,35 +186,7 @@ Rscript scripts/05_annotate_known_srna/05_intersect_known_srna.R
 
 ---
 
-## 06_srna_deg — sRNA–gene interaction analysis
-
-### Purpose
-
-* Identify overlaps between sRNAs and differentially expressed genes
-* Detect antisense relationships
-
-### Dependencies
-
-* Python 3
-* bedtools
-
-### Scripts
-
-```bash
-python scripts/06_srna_deg/01_sig_antisense_srna_to_bed.py
-bash scripts/06_srna_deg/02_deg_tables_to_bed.sh
-bash scripts/06_srna_deg/03_bedtools_antisense_overlap.sh
-bash scripts/06_srna_deg/04_overlap_expression_patterns.sh
-```
-
-### Outputs
-
-* Overlap tables
-* Antisense interaction results
-
----
-
-## 07_intarna — RNA–RNA interaction prediction
+## 06_intarna — RNA–RNA interaction prediction
 
 ### Purpose
 
@@ -228,20 +200,19 @@ bash scripts/06_srna_deg/04_overlap_expression_patterns.sh
 ### Scripts
 
 ```bash
-python scripts/07_intarna/01_extract_sequences.py
-bash scripts/07_intarna/02_run_intarna.sh
-bash scripts/07_intarna/03_combine_results.sh
-python scripts/07_intarna/04_filter_results.py
+python scripts/06_intarna/01_extract_sequences.py
+bash scripts/06_intarna/02_run_intarna.sh
+bash scripts/06_intarna/03_combine_results.sh
+python scripts/06_intarna/04_filter_candidates.py
 ```
 
 ### Outputs
 
-* Interaction prediction tables
-* Filtered candidate interactions
+* Interaction prediction tables and filtered candidate interactions in `results/sRNA_detection/06_intarna/`
 
 ---
 
-## 08_conservation — Conservation analysis
+## 07_conservation — Conservation analysis
 
 ### Purpose
 
@@ -254,8 +225,7 @@ python scripts/07_intarna/04_filter_results.py
 ### Scripts
 
 ```bash
-bash scripts/08_conservation/01_download_genomes.sh
-bash scripts/08_conservation/02_blast_and_summarize.sh
+bash scripts/07_conservation/conservation_from_selected_srnas.sh
 ```
 
 ### Outputs
@@ -265,7 +235,7 @@ bash scripts/08_conservation/02_blast_and_summarize.sh
 
 ---
 
-## 09_figures — Visualization
+## 08_figures — Visualization
 
 ### Purpose
 
@@ -279,19 +249,18 @@ bash scripts/08_conservation/02_blast_and_summarize.sh
 ### Scripts
 
 ```bash
-Rscript scripts/09_figures/make_heatmap_sig_from_counts.R
-Rscript scripts/09_figures/make_pca_from_counts.R
-Rscript scripts/09_figures/make_volcano_from_voom_csv.R
-Rscript scripts/09_figures/make_srna_type_distribution.R
-python scripts/09_figures/make_srna_venn_pubstyle.py
+Rscript scripts/08_figures/make_volcano_from_voom_csv.R
+Rscript scripts/08_figures/make_srna_type_distribution.R
+Rscript scripts/08_figures/make_cis_element_class_distribution.R
+python scripts/08_figures/make_srna_venn_pubstyle.py
 ```
 
 ### Outputs
 
-* Heatmaps
-* PCA plots
+* Cis-regulatory element class-distribution plots
 * Volcano plots
-* Venn diagrams
+* sRNA-type distribution plot
+* Venn diagram
 
 ---
 
