@@ -1,85 +1,146 @@
-# *Escherichia coli* Nissle 1917 — RNA regulatory responses under simulated microgravity
+# *Escherichia coli* Nissle 1917 — sRNA responses under simulated microgravity
 
-This repository contains analysis scripts, sample metadata, and selected outputs for a computational study of small regulatory RNAs (sRNAs) and other RNA regulatory elements in *Escherichia coli* Nissle 1917 (EcN) under simulated microgravity (SMG) versus normal gravity (NG). Exponential- and stationary-phase samples are analysed separately.
+This repository contains scripts, metadata, and curated analysis outputs for the identification and characterization of small RNAs (sRNAs) in *Escherichia coli* Nissle 1917 under simulated microgravity (SMG) compared with normal gravity (NG).
 
-The analysis includes genome-wide sRNA prediction using ANNOgesic, sRNA expression analysis using featureCounts and limma–voom, comparison with previously annotated sRNAs, IntaRNA prediction of candidate sRNA–mRNA interactions, cross-strain conservation analysis, and identification of candidate RNA thermometer/riboswitch-module elements and their phase-matched DEG associations.
+The analysis focuses on:
 
-**Interpretation:** The reported sRNA expression candidates meet a **nominal** P-value threshold; none remained significant after multiple-testing correction. The RNA–RNA interactions and cis-regulatory associations are **computational predictions**, not experimentally demonstrated regulatory interactions.
+* Genome-wide sRNA detection using **ANNOgesic**
+* Condition-specific comparison across growth phases (exponential vs stationary)
+* Prediction of regulatory RNA elements (riboswitches and RNA thermometers)
 
-## Dataset and reference genome
+---
 
-- **GEO:** [GSE147272](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147272) — source RNA-seq dataset from Yim *et al.* (2020).
-- **EcN reference genome:** GenBank accession **CP007799.1** (the alignment accession is also written **NZ_CP007799.1**).
-- **Experimental groups:** SMG and NG, with two RNA-seq runs per condition in each growth phase.
+## Dataset
 
-### RNA-seq run mapping
+**GEO accession:** GSE147272
+*Transcriptional profiling of probiotic* *E. coli* Nissle 1917 *under simulated microgravity*
 
-| Sample ID | SRA run | Growth phase | Condition |
-| --- | --- | --- | --- |
-| MG_exp_1 | SRR11357510 | Exponential | SMG |
-| MG_exp_2 | SRR11357511 | Exponential | SMG |
-| MG_sta_1 | SRR11357512 | Stationary | SMG |
-| MG_sta_2 | SRR11357513 | Stationary | SMG |
-| NG_exp_1 | SRR11357514 | Exponential | NG |
-| NG_exp_2 | SRR11357515 | Exponential | NG |
-| NG_sta_1 | SRR11357516 | Stationary | NG |
-| NG_sta_2 | SRR11357517 | Stationary | NG |
+### RNA-seq runs (SRA)
 
-The `MG_` sample-ID prefix denotes the simulated-microgravity samples; `NG_` denotes normal gravity. The repository also contains `meta/samples_nissle_GSE147272.tsv`.
+**Simulated microgravity (SMG)**
 
-## Analysis overview
+* Exponential: SRR11357510, SRR11357511
+* Stationary: SRR11357512, SRR11357513
 
-| Stage | Location | Purpose |
-| --- | --- | --- |
-| 00 | `scripts/00_pipeline/` | Download, trim, align, and assess strandedness of RNA-seq reads |
-| 01 | `scripts/01_annogesic/` | Generate coverage tracks and run ANNOgesic |
-| 02 | `scripts/02_filter/` | Filter predicted sRNA loci |
-| 03 | `scripts/03_shared_srna/` | Build SAF files and compare sRNA loci across growth phases |
-| 04 | `scripts/04_srna_de/` | Feature counting and phase-specific limma–voom analysis |
-| 05 | `scripts/05_annotate_known_srna/` | Compare candidate sRNAs with BSRD |
-| 06 | `scripts/06_intarna/` | Prepare selected sRNA/mRNA sequences, predict and filter interactions |
-| 07 | `scripts/07_conservation/` | Search selected sRNAs for cross-strain conservation |
-| 08 | `scripts/08_cis_deg/` | Compare ANNOgesic-associated CDS locus tags with phase-specific DEGs |
-| 09 | `scripts/09_figures/` | Reproduce the repository's main plotted figures |
+**Normal gravity (NG)**
 
-See **[WORKFLOW.md](WORKFLOW.md)** for script names, required inputs, execution notes, and output locations. Run commands from the repository root unless a script says otherwise. Some stages require locally prepared reads, reference sequences, annotations, or other dependencies not distributed here.
+* Exponential: SRR11357514, SRR11357515
+* Stationary: SRR11357516, SRR11357517
 
-## Key exploratory results
+---
 
-- **Predicted/filtered sRNAs:** 3,752 exponential-phase and 519 stationary-phase loci after the initial sRNA filters.
-- **Tested for differential expression:** 697 exponential-phase and 317 stationary-phase loci after expression filtering.
-- **Nominal candidate expression changes:** 44 exponential-phase and 35 stationary-phase sRNA records (79 records representing **78 distinct genomic loci**). **None survived FDR correction.**
-- **IntaRNA prioritisation:** Eight selected exponential-phase and three selected stationary-phase intergenic sRNAs were assessed against phase-specific curated DEG targets. The interaction results are predictions, not validated binding events.
-- **ANNOgesic RNA thermometer-module predictions:** 43 exponential and 14 stationary records.
-- **ANNOgesic riboswitch-module predictions:** 27 exponential and 11 stationary records.
-- **Same-phase cis-element–DEG associations:** Two locus-tag-based associations were identified: an exponential-phase TPP-riboswitch-module prediction associated with *rcnA* and a stationary-phase Phe_leader prediction associated with *manA*. These are annotation-based associations; physical overlap, ligand-dependent regulation, and causality were not demonstrated.
+## Sample mapping
 
-The module counts above include the Rfam classes emitted by ANNOgesic; they should **not** all be interpreted as validated thermometers or riboswitches. In particular, **Phe_leader** is a cis-regulatory leader RNA rather than an established RNA thermometer, while **suhB** (sRNA) and **drz-agam-1** (ribozyme) are not established riboswitches.
+| sample_id | SRR         | growth_phase | gravity |
+| --------- | ----------- | ------------ | ------- |
+| MG_exp_1  | SRR11357510 | exponential  | MG      |
+| MG_exp_2  | SRR11357511 | exponential  | MG      |
+| MG_sta_1  | SRR11357512 | stationary   | MG      |
+| MG_sta_2  | SRR11357513 | stationary   | MG      |
+| NG_exp_1  | SRR11357514 | exponential  | NG      |
+| NG_exp_2  | SRR11357515 | exponential  | NG      |
+| NG_sta_1  | SRR11357516 | stationary   | NG      |
+| NG_sta_2  | SRR11357517 | stationary   | NG      |
 
-## Where to find the reproducible outputs
+---
 
-| Output | Directory/file |
-| --- | --- |
-| Phase-specific sRNA differential-expression tables | `results/sRNA_detection/04_srna_de_filtered/` |
-| Selected sRNA IDs and spreadsheets | `results/sRNA_detection/06_intarna/selected_exp_ids.txt`, `selected_sta_ids.txt`, `selected_exp_srnas.xlsx`, `selected_sta_srnas.xlsx` |
-| Curated mRNA target tables | `results/sRNA_detection/06_intarna/curated_mrna_tables/` |
-| IntaRNA per-target predictions | `results/sRNA_detection/06_intarna/intarna_exp/` and `intarna_sta/` |
-| Combined IntaRNA predictions | `results/sRNA_detection/06_intarna/combined_results/` |
-| Filtered/prioritised interactions | `results/sRNA_detection/06_intarna/filtered_interactions/` |
-| ANNOgesic cis-element source tables | `results/riboswitch_thermometer/exp/` and `sta/` |
-| Cis-element–DEG comparisons and mapping audit | `results/riboswitch_thermometer/deg_comparison/` |
-| Publication-figure source plots | `results/figures/` |
+## Repository structure
 
-For Figure 5, `results/figures/cis_elements/figure_5_plot_counts.csv` records the class counts used to generate the RNA thermometer-module and riboswitch-module plots.
+```text
+scripts/     → pipeline scripts organized by analysis stage
+results/     → curated outputs and final results
+meta/        → sample metadata and input tables
+```
 
-## Reproducibility notes
+---
 
-- Differential-expression fold changes are **SMG relative to NG**, and sRNA findings at nominal P < 0.05 are exploratory.
-- Sequence extraction and IntaRNA analyses are phase matched (exponential-to-exponential; stationary-to-stationary). Where a gene symbol is duplicated, target FASTA names can include its locus tag (for example, `kfiA__ECOLIN_25915.fasta`) to avoid ambiguity.
-- `scripts/06_intarna/03_combine_results.sh` currently generates combined tables directly under `results/sRNA_detection/06_intarna/`. **The committed final combined tables are organised under `combined_results/`.** Move regenerated tables there or adjust the script's output directory before reproducing that final layout. The filtering script accepts either location but checks the root first; avoid leaving stale root-level copies that could override newer `combined_results/` files.
-- `scripts/08_cis_deg/compare_cis_elements_to_degs.py` matches ANNOgesic `Associated_CDS` locus tags to curated DEG annotations. It does **not** test genomic coordinate overlap or prove regulation.
-- Raw sequencing reads and some reference/annotation inputs must be obtained separately. Review the paths and requirements in **[WORKFLOW.md](WORKFLOW.md)** before running scripts.
+## Workflow
 
-## Citation and reuse
+The analysis is organized into numbered stages under `scripts/`.
 
-If using these analyses, cite the underlying GEO dataset and relevant computational tools. This repository provides computational hypotheses for follow-up experimental investigation rather than validated sRNA functions.
+### 00 — Data acquisition and preprocessing
+
+* Download FASTQ from SRA
+  `scripts/00_pipeline/01_download_fastq.sh`
+* Read trimming (fastp)
+  `scripts/00_pipeline/02_trim_fastq.sh`
+* Alignment (Bowtie2)
+  `scripts/00_pipeline/03_align_bowtie2.sh`
+* Strandedness inference (RSeQC)
+  `scripts/00_pipeline/04_infer_strandedness.sh`
+
+---
+
+### 01 — ANNOgesic preparation and annotation
+
+* WIG generation
+* ANNOgesic execution for sRNA prediction
+  `scripts/01_annogesic/`
+
+---
+
+### 02 — Filtering
+
+* Filtering ANNOgesic sRNA predictions
+  `scripts/02_filter/filter_annogesic_srna.py`
+
+---
+
+### 03 — Shared sRNA detection
+
+* Generate SAF files
+* Identify shared sRNAs across conditions
+  `scripts/03_shared_srna/`
+
+---
+
+### 04 — Differential expression analysis
+
+* FeatureCounts quantification
+* Voom/limma differential expression
+  `scripts/04_srna_de/`
+
+---
+
+### 05 — Known sRNA annotation
+
+* BLAST against BSRD
+* Annotation and filtering
+  `scripts/05_annotate_known_srna/`
+
+---
+
+### 06 — sRNA–mRNA interaction prediction
+
+* Sequence extraction, IntaRNA prediction, result combination, and interaction filtering
+  `scripts/06_intarna/`
+
+---
+
+### 07 — Conservation analysis
+
+* Genome collection and BLAST analysis
+  `scripts/07_conservation/`
+
+---
+
+### 08 — Cis-element–DEG comparison
+
+* Comparison of predicted RNA thermometers and riboswitches with phase-matched DEGs
+  `scripts/08_cis_deg/`
+
+---
+
+### 09 — Visualization
+
+* Volcano plots, Venn diagrams, sRNA type distribution, and cis-element class distribution
+  `scripts/09_figures/`
+
+---
+
+## Reference genome
+
+* NCBI accession: **CP007799.1**
+* Used for alignment and annotation steps
+
+---
