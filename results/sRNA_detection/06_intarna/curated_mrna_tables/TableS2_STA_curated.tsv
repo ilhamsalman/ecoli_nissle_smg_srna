@@ -1,0 +1,173 @@
+Locus Tag	Fold Change	Gene Function	Gene	Start_0based	End_0based	Strand	Coordinate_Source
+ECOLIN_05910	6.548978977749282	curlin minor subunit CsgB	csgB	1223449	1224149	+	current_annotation
+ECOLIN_05915	5.188041428109219	major curlin subunit	csgA	1223945	1224645	+	current_annotation
+ECOLIN_05920	inf	curli assembly protein CsgC	csgC	1224462	1225162	+	current_annotation
+ECOLIN_20015	2.36841188742411	lipopolysaccharide core heptosyltransferase RfaQ	rfaQ	4171958	4172658	-	current_annotation
+ECOLIN_20010	2.3909434364291293	glucosyltransferase I RfaG	rfaG	4170903	4171603	-	current_annotation
+ECOLIN_19995	2.0257554192012424	lipopolysaccharide 1,2-glucosyltransferase	rfaP	4167940	4168640	-	current_annotation
+ECOLIN_13210	2.251552316240622	lipid A biosynthesis palmitoleoyl acyltransferase	lpxP	2749890	2750590	+	current_annotation
+ECOLIN_01835	2.479363842420213	hypothetical protein	ecpC	382426	383126	-	current_annotation
+ECOLIN_01840	4.460143104437866	hypothetical protein	ecpB	383120	383820	-	current_annotation
+ECOLIN_01845	7.3573692559653185	fimbrial protein	ecpA	383764	384464	-	current_annotation
+ECOLIN_01850	3.782657096865978	LuxR family transcriptional regulator	ecpR	384381	385081	-	current_annotation
+ECOLIN_24010	2.3710235625838547	fimbrial protein	fimD	4984345	4985045	+	current_annotation
+ECOLIN_06000	2.4674314424911947	N-methyltryptophan oxidase	solA	1239785	1240485	-	current_annotation
+ECOLIN_06005	3.06730153594067	biofilm formation regulatory protein BssS	bssS	1240154	1240854	-	current_annotation
+ECOLIN_17190	3.252479581537305	membrane protein	alx	3592218	3592918	+	current_annotation
+ECOLIN_12350	2.03290105740395	membrane protein	yejM	2546767	2547467	+	current_annotation
+ECOLIN_12735	2.2983364382258897	protein ElaB	elaB	2638964	2639664	-	current_annotation
+ECOLIN_19295	2.508265386037678	membrane protein	yhiM	4002341	4003041	+	current_annotation
+ECOLIN_20405	2.9568478318348705	membrane protein	nlpA	4240008	4240708	-	current_annotation
+ECOLIN_04950	2.205949860527753	heat shock protein HspQ	hspQ	1044685	1045385	-	current_annotation
+ECOLIN_09820	2.566495978572761	heat shock protein HtpX	htpX	1996061	1996761	-	current_annotation
+ECOLIN_20525	3.153841155429477	heat shock protein IbpA	ibpA	4264379	4265079	-	current_annotation
+ECOLIN_20520	7.961057044130926	heat shock chaperone IbpB	ibpB	4263854	4264554	-	current_annotation
+ECOLIN_06265	2.698261176859842	multiple stress resistance protein BhsA	bhsA	1289639	1290339	+	current_annotation
+ECOLIN_00165	2.0110793411428745	transcriptional regulator	caiF	36056	36756	+	current_annotation
+ECOLIN_00185	2.613403701571515	crotonobetainyl-CoA:carnitine CoA-transferase	caiC	40604	41304	-	current_annotation
+ECOLIN_19660	2.235612272688756	cold-shock protein	cspA	4092218	4092918	+	current_annotation
+ECOLIN_19450	2.2683291494637925	glutamate decarboxylase	gadA	4039157	4039857	-	current_annotation
+ECOLIN_23085	2.2982727156923906	arginine decarboxylase	adiA	4805750	4806450	-	current_annotation
+ECOLIN_00805	3.200594708744371	ferrichrome transporter	fhuA	176052	176752	+	current_annotation
+ECOLIN_03180	2.045622593409638	thioesterase	entH	676387	677087	+	current_annotation
+ECOLIN_04695	2.1117513890623005	3-phosphoshikimate 1-carboxyvinyltransferase	aroA	982247	982947	+	current_annotation
+ECOLIN_12730	2.2012606743681564	isochorismate synthase	menF	2638580	2639280	-	current_annotation
+ECOLIN_09975	5.684249970841247	zinc ABC transporter substrate-binding protein	znuA	2026074	2026774	-	current_annotation
+ECOLIN_09980	2.6752060218115687	zinc ABC transporter ATPase	znuC	2026452	2027152	+	current_annotation
+ECOLIN_09985	3.950102254052839	high-affinity zinc transporter membrane component	znuB	2027204	2027904	+	current_annotation
+ECOLIN_10835	15.618564970190542	zinc/cadmium-binding protein	zinT	2168537	2169237	+	current_annotation
+ECOLIN_02140	2.192322438441105	S-(hydroxymethyl)glutathione dehydrogenase	frmA	454827	455527	-	current_annotation
+ECOLIN_08700	2.117614531433044	mannose-6-phosphate isomerase	manA	1777127	1777827	+	current_annotation
+ECOLIN_09970	3.9586266256608273	peptidase	mepM	2025126	2025826	-	current_annotation
+ECOLIN_22330	2.108007500154484	zinc resistance protein	zraP	4638250	4638950	-	current_annotation
+ECOLIN_10990	3.1135706159763035	MFS transporter	ybtX	2197452	2198152	-	current_annotation
+ECOLIN_10995	3.860613157252209	ABC transporter permease	ybtQ	2199247	2199947	-	current_annotation
+ECOLIN_11000	4.496710482173024	ABC transporter ATP-binding protein	ybtP	2200946	2201646	-	current_annotation
+ECOLIN_18140	2.0946801986622465	amino acid ABC transporter permease	yhdX	3782050	3782750	+	current_annotation
+ECOLIN_03940	2.7790272864394243	molybdate transporter	modA	821575	822275	+	current_annotation
+ECOLIN_03950	3.1969363039113743	molybdate transporter ATP-binding protein	modC	823040	823740	+	current_annotation
+ECOLIN_14720	3.1419277377794512	formate hydrogenlyase regulatory protein HycA	hycA	3064948	3065648	-	current_annotation
+ECOLIN_14715	3.4828057251383298	formate hydrogenlyase	hycB	3064362	3065062	-	current_annotation
+ECOLIN_14710	2.468560494206586	formate hydrogenlyase subunit 3	hycC	3063754	3064454	-	current_annotation
+ECOLIN_14705	2.578389109636614	hydrogenase 3 membrane subunit	hycD	3061925	3062625	-	current_annotation
+ECOLIN_14700	2.7819760504078284	hydrogenase 3 large subunit	hycE	3060984	3061684	-	current_annotation
+ECOLIN_14690	2.3245315384769945	formate hydrogenlyase	hcyG	3058723	3059423	-	current_annotation
+ECOLIN_14685	2.3672465969917	formate hydrogenlyase maturation protein HycH	hycH	3057959	3058659	-	current_annotation
+ECOLIN_11085	2.0685932583042046	transcriptional regulator Cbl	cbl	2234997	2235697	+	current_annotation
+ECOLIN_09330	2.3042064759887984	L-cystine transporter tcyP	tcyP	1898142	1898842	+	current_annotation
+ECOLIN_10590	2.6852566799241138	cystine transporter subunit	tcyN	2126426	2127126	-	current_annotation
+ECOLIN_10605	2.467585373675792	cystine transporter subunit	tcyJ	2128114	2128814	-	current_annotation
+ECOLIN_13390	2.13367434553698	cysteine synthase	cysM	2785163	2785863	+	current_annotation
+ECOLIN_14875	4.554396827846981	sulfate adenylyltransferase subunit 2	cysD	3094337	3095037	-	current_annotation
+ECOLIN_14870	3.103744930545342	sulfate adenylyltransferase subunit 1	cysN	3093427	3094127	-	current_annotation
+ECOLIN_14865	2.7493298421354604	adenylylsulfate kinase	cysC	3092000	3092700	-	current_annotation
+ECOLIN_14900	4.628035721718107	sulfite reductase subunit alpha	cysJ	3100487	3101187	-	current_annotation
+ECOLIN_14895	2.864354390084439	sulfite reductase subunit beta	cysI	3098688	3099388	-	current_annotation
+ECOLIN_14890	2.614291474295116	phosphoadenosine phosphosulfate reductase	cysH	3096902	3097602	-	current_annotation
+ECOLIN_01050	2.5046169881335207	DL-methionine transporter substrate-binding subunit	metQ	229459	230159	-	current_annotation
+ECOLIN_13800	2.4297198858357896	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase	ispG	2881995	2882695	-	current_annotation
+ECOLIN_14730	2.239194735262963	hydrogenase nickel incorporation protein HypB	hypB	3065813	3066513	+	current_annotation
+ECOLIN_19320	2.074811109942431	peptide ABC transporter permease	tppB	4007952	4008652	+	current_annotation
+ECOLIN_20720	2.0888805556943537	phosphate ABC transporter substrate-binding protein	ptsS	4307780	4308480	-	current_annotation
+ECOLIN_03960	2.494066616403914	6-phosphogluconolactonase	pgl	825072	825772	+	current_annotation
+ECOLIN_19025	14.88647220958811	gluconate kinase	gntK	3949797	3950497	-	current_annotation
+ECOLIN_09940	2.669260298936766	phosphogluconate dehydratase	edd	2018095	2018795	-	current_annotation
+ECOLIN_13585	2.169691611211255	transketolase	tktB	2822258	2822958	+	current_annotation
+ECOLIN_16980	2.2307363314416406	3,4-dihydroxy-2-butanone 4-phosphate synthase	ribB	3543505	3544205	-	current_annotation
+ECOLIN_07090	2.255644953029865	ribose-phosphate pyrophosphokinase	prsA	1427184	1427884	-	current_annotation
+ECOLIN_11520	2.314483054549649	ATP phosphoribosyltransferase	hisG	2351027	2351727	+	current_annotation
+ECOLIN_00155	2.649536496185629	carbamoyl phosphate synthase small subunit	carA	31408	32108	+	current_annotation
+ECOLIN_00160	2.2741856004212315	carbamoyl phosphate synthase large subunit	carB	32574	33274	+	current_annotation
+ECOLIN_09490	2.278998539421027	glutamate dehydrogenase	gdhA	1928327	1929027	+	current_annotation
+ECOLIN_00020	2.000748739072585	threonine synthase	thrC	3557	4257	+	current_annotation
+ECOLIN_04690	2.0437942973082333	3-phosphoserine/phosphohydroxythreonine aminotransferase	serC	981088	981788	+	current_annotation
+ECOLIN_06270	2.034804232220753	peptigoglycan-binding protein LysM	lysM	1290638	1291338	-	current_annotation
+ECOLIN_14070	2.4175068875673698	L-aspartate oxidase	nadB	2945151	2945851	+	current_annotation
+ECOLIN_15580	2.428322440462605	lysine--tRNA ligase	lysS	3267278	3267978	-	current_annotation
+ECOLIN_15845	2.2334283922921894	S-adenosylmethionine synthetase	metK	3318084	3318784	+	current_annotation
+ECOLIN_17670	2.011386038801351	phosphoglucosamine mutase	glmM	3687546	3688246	-	current_annotation
+ECOLIN_19930	2.047367375645074	phosphoglyceromutase	gpmM	4152577	4153277	+	current_annotation
+ECOLIN_24210	2.157424391503288	carbon starvation protein A	btsT	5027483	5028183	-	current_annotation
+ECOLIN_24710	3.2566981309441982	isocitrate dehydrogenase	aceK	5119657	5120357	-	current_annotation
+ECOLIN_24725	2.894471597613926	homoserine O-succinyltransferase	metA	5124097	5124797	-	current_annotation
+ECOLIN_25100	2.6687052995680864	glucosamine--fructose-6-phosphate aminotransferase (NULL)	glmS	5194017	5194717	+	current_annotation
+ECOLIN_00105	-3.8199135806644615	30S ribosomal protein S20	rpsT	22153	22853	-	current_annotation
+ECOLIN_00510	-inf	DNA gyrase inhibitor	yacG	114431	115131	-	current_annotation
+ECOLIN_00515	-2.595009823561552	hypothetical protein	zapD	115184	115884	-	current_annotation
+ECOLIN_00520	-2.2701852058336103	dephospho-CoA kinase	coaE	115804	116504	-	current_annotation
+ECOLIN_00625	2.047381566963497	hypothetical protein	yacL	141387	142087	+	current_annotation
+ECOLIN_00750	-2.0583809352689832	poly(A) polymerase I	pcnB	166013	166713	-	current_annotation
+ECOLIN_02450	-2.6356887285926653	oxidoreductase	yajO	517066	517766	-	current_annotation
+ECOLIN_02515	-2.166730919306311	cytochrome o ubiquinol oxidase subunit II	cyoA	530416	531116	-	current_annotation
+ECOLIN_02580	-2.098007739511283	queuosine biosynthesis protein QueC	queC	544364	545064	-	current_annotation
+ECOLIN_02794	-2.7611514072060874	disulfide isomerase	dsbG	685287	685987	-	historical_CP007799.1
+ECOLIN_03067	2.047182897456664	lipoate--protein ligase	lipB	657921	658621	+	historical_CP007799.1
+ECOLIN_03340	-2.086507346101377	glutamate--tRNA ligase	gltX	706983	707683	-	current_annotation
+ECOLIN_03613	-2.7346192957913287	peptide permease	dtpD	3647226	3647926	+	historical_CP007799.1
+ECOLIN_04159	3.326280882827686	hypothetical protein	fiu	879636	880336	-	historical_CP007799.1
+ECOLIN_04432	2.96045720709497	glutaredoxin	grxA	886233	886702	+	historical_CP007799.1
+ECOLIN_04979	2.172249774680572	macrolide transporter (NULL)	cspD	924895	925304	+	historical_CP007799.1
+ECOLIN_05252	2.035594220069903	Clp protease ClpX	clpX	536530	537230	+	historical_CP007799.1
+ECOLIN_05525	-2.026963345317122	hypothetical protein	ycaO	1157088	1157788	-	current_annotation
+ECOLIN_05798	-2.286926500915046	nicotinate phosphoribosyltransferase	pncB	2724203	2724903	-	historical_CP007799.1
+ECOLIN_06344	-3.114585117685247	50S ribosomal protein L32	rpmF	1266867	1267241	+	historical_CP007799.1
+ECOLIN_06890	2.452426671579509	diguanylate phosphodiesterase	bluF	1386417	1387117	-	current_annotation
+ECOLIN_07163	-3.5187426410391662	inhibitor of g-type lysozyme	ycgK	1227064	1227635	-	historical_CP007799.1
+ECOLIN_07436	-2.137834245934227	nitrate reductase	narZ	1539518	1540218	-	historical_CP007799.1
+ECOLIN_07709	-5.431422153175363	hypothetical protein	yciW	1345663	1346156	+	historical_CP007799.1
+ECOLIN_07982	-2.618408153623774	ATP-dependent RNA helicase DbpA	dbpA	3472969	3473669	-	historical_CP007799.1
+ECOLIN_08255	-2.482889402969429	peroxiredoxin OsmC	osmC	1680409	1681109	-	current_annotation
+ECOLIN_08801	-2.538049136586632	transcriptional regulator	rstA	1682849	1683549	-	historical_CP007799.1
+ECOLIN_09074	-2.808480916689432	sensor protein RstB	rstB	1682119	1682819	-	historical_CP007799.1
+ECOLIN_09620	-2.8841376078002683	NAD synthetase	nadE	1959730	1960430	+	current_annotation
+ECOLIN_10439	-2.1223608965773537	hypothetical protein	yebF	1949062	1949609	+	historical_CP007799.1
+ECOLIN_10713	-4.320445252505635	salicylate synthase Irp9	irp9	2196144	2196844	-	historical_CP007799.1
+ECOLIN_11532	-2.9732071859798976	salicyl-AMP ligase	ybfE	2220479	2221179	+	historical_CP007799.1
+ECOLIN_11805	-5.713520638637272	ligand-gated channel protein	fyuA	2423837	2424537	+	current_annotation
+ECOLIN_12351	-2.1626646896742945	peptide synthetase	clbJ	2258363	2259063	-	historical_CP007799.1
+ECOLIN_12897	-2.135065011873345	acyl-CoA dehydrogenase	fadE	350482	351182	-	historical_CP007799.1
+ECOLIN_13170	-2.1424328695437107	polyketide synthase	clbC	2738624	2739324	+	current_annotation
+ECOLIN_13443	-2.055714620699901	hydroxyethylthiazole kinase	thiM	4191876	4192576	+	historical_CP007799.1
+ECOLIN_13716	-2.8390927872459626	osmoprotectant uptake system substrate-binding protein	osmF	4289143	4289843	-	historical_CP007799.1
+ECOLIN_14262	-2.184495297291826	NADH:ubiquinone oxidoreductase subunit N	nuoN	2382463	2383163	+	historical_CP007799.1
+ECOLIN_14535	-2.249462006581257	NADH dehydrogenase	nuoB	3028786	3029486	-	current_annotation
+ECOLIN_14808	-2.145851142588038	NADH:ubiquinone oxidoreductase subunit A	nuoA	2393774	2394372	+	historical_CP007799.1
+ECOLIN_15354	-3.1326422015700963	SAM-dependent methyltransferase	prmB	3652644	3653281	+	historical_CP007799.1
+ECOLIN_15627	-2.285326032784379	glutamyl-tRNA ligase	gltX	3708550	3709250	-	historical_CP007799.1
+ECOLIN_16173	-2.888779324870747	GMP synthase	guaA	2861065	2861765	-	historical_CP007799.1
+ECOLIN_16446	2.017711629770151	thioredoxin 2	trxC	2696285	2696823	+	historical_CP007799.1
+ECOLIN_16720	-2.4278175375043047	16S rRNA-processing protein RimM	rimM	3487425	3488125	+	current_annotation
+ECOLIN_16993	-2.2292524457462006	peptidoglycan-binding protein	kbp	186517	186980	+	historical_CP007799.1
+ECOLIN_17266	2.174102561616932	DNA-binding protein	stpA	2795473	2796113	+	historical_CP007799.1
+ECOLIN_17539	-2.2364492178186124	hypothetical protein	hypF	2839733	2840433	-	historical_CP007799.1
+ECOLIN_17812	-2.3416573749542264	hypothetical protein	ygbE	2917023	2917507	-	historical_CP007799.1
+ECOLIN_18085	-2.2094388460272314	hypothetical protein	ygeR	3772195	3772895	+	current_annotation
+ECOLIN_18358	2.67566963985771	arginine exporter protein	argO	4146843	4147543	+	historical_CP007799.1
+ECOLIN_19177	-2.8483965295023506	glycolate oxidase	glcD	3115703	3116403	+	historical_CP007799.1
+ECOLIN_17080	-2.0663147091941987	30S ribosomal protein S21	rpsU	3564920	3565620	+	current_annotation
+ECOLIN_19996	2.3229691585635224	transcriptional regulator	nfeR	1733258	1733913	-	historical_CP007799.1
+ECOLIN_20542	-2.578406981729971	ribosome hibernation promoting factor HPF	hpf	4375957	4376438	-	historical_CP007799.1
+ECOLIN_20815	-2.234047715981956	Clp protease ClpP	clpP	4327348	4328048	-	current_annotation
+ECOLIN_22453	-2.183556709397049	bifunctional glyoxylate/hydroxypyruvate reductase B	ghrB	2413258	2413958	-	historical_CP007799.1
+ECOLIN_23546	2.3349311340025896	recombination protein F	recF	4278179	4278879	-	historical_CP007799.1
+ECOLIN_24092	-2.659011469140856	transcriptional regulator	rbsR	4921090	4921790	-	historical_CP007799.1
+ECOLIN_24365	-2.4814441772039864	DNA-dependent helicase II	uvrD	5054553	5055253	+	current_annotation
+ECOLIN_24638	-2.476581331179072	ATP-dependent DNA helicase RecQ	recQ	3892490	3893190	+	historical_CP007799.1
+ECOLIN_24911	-2.442705604315168	preprotein translocase	tatB	4011821	4012392	-	historical_CP007799.1
+ECOLIN_25184	-2.363524795591794	twin-arginine protein translocation system subunit TatC	tatC	4011308	4012008	-	historical_CP007799.1
+ECOLIN_26003	-2.0738621483721995	formate dehydrogenase	fdhD	4209787	4210487	+	historical_CP007799.1
+ECOLIN_26276	2.048758592492935	hypothetical protein	yiiS	4110014	4110525	-	historical_CP007799.1
+ECOLIN_26549	-2.214114759192691	ATP-dependent protease ATP-binding subunit HslU	hslU	4544080	4544780	-	historical_CP007799.1
+ECOLIN_26822	-3.017722193782774	primosome assembly protein PriA	priA	4126477	4127177	-	historical_CP007799.1
+ECOLIN_27095	3.205990165553588	50S ribosomal protein L31	rpmE	4125713	4126152	+	historical_CP007799.1
+ECOLIN_27368	-2.3726347086664688	acetylglutamate kinase	argB	4148261	4148961	-	historical_CP007799.1
+ECOLIN_27641	-2.3459300560059515	elongation factor Tu	tufA	3483820	3484520	+	historical_CP007799.1
+ECOLIN_28460	-2.191380487545299	50S ribosomal protein L7/L12	rplL	4618347	4618913	+	historical_CP007799.1
+ECOLIN_28734	-2.6020343364720127	LrgA	lrgA	1160603	1161234	+	historical_CP007799.1
+ECOLIN_29007	-2.45605011706326	LrgB	lrgB	1160082	1160782	+	historical_CP007799.1
+ECOLIN_29280	-2.165214568088774	GTPase RsgA	rsgA	3792238	3792938	-	historical_CP007799.1
+ECOLIN_30099	-2.8690040407058803	inorganic pyrophosphatase	ppa	4427454	4428154	-	historical_CP007799.1
+ECOLIN_31191	-2.331712636895281	purine nucleoside phosphorylase	deoD	5057207	5057907	+	historical_CP007799.1
+ECOLIN_31737	-2.677060976126913	osmoprotectant uptake system substrate-binding protein	yehW	2220280	2220980	-	historical_CP007799.1
+ECOLIN_33102	-5.156170606004802	phosphopantetheine-binding protein	HMWP2	5357443	5358143	-	historical_CP007799.1
+ECOLIN_33648	-3.036711809224516	primosome assembly protein PriA (NULL)	priA	4126477	4127177	-	historical_CP007799.1

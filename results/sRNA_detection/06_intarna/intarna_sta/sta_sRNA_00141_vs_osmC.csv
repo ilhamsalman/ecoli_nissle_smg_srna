@@ -1,2 +1,2 @@
 id1;start1;end1;id2;start2;end2;subseqDP;hybridDP;E
-osmC;203;211;sta_sRNA_00141;91;99;GUGUUUGGU&ACCGGACAC;(((((((((&)))))))));-7.15
+osmC;499;531;sta_sRNA_00141;80;115;AGCAAAACAUGAUGGGCGCGGUGUUAAUUAACG&CGUUAGAAAACACCGGACACUCUCGUGUAAAAAGCU;(((...((((((.(((..(((((((..((((((&))))))..)))))))..).)).)))))).....)));-9.99

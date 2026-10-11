@@ -4,3 +4,5 @@ exp_sRNA_03878
 exp_sRNA_05517
 exp_sRNA_03858
 exp_sRNA_08297
+exp_sRNA_02718
+exp_sRNA_02140

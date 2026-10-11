@@ -1,0 +1,12 @@
+phase	srna	n_total_target_genes	n_energy_target_genes_dG_le_minus10	n_prioritized_target_genes	best_deltaG_overall	best_prioritized_deltaG	prioritized_target_genes
+EXP	exp_sRNA_03878	64	49	34	-19.31	-19.31	iscU, hdeD, ompT, gadB, gadA, cusA, cusB, adhE, iscA, dcuB, ecpA, sdhA, hdeB, yhbU, ecpR, copA, htpG, fumB, ecpB, icsS, cueO, feoB, betA, betI, fimC, mqo, znuA, betT, betB, cspA, fimD, zinT, fimA, fimG
+EXP	exp_sRNA_02037	64	43	30	-19.11	-19.11	cueO, fimD, iscU, iscA, iscR, fimI, ycgR, htpG, betT, znuA, zinT, mqo, cheZ, yhbU, kfiA, ecpA, feoB, ecpC, betA, fumB, fliC, betB, ecpB, hdeD, dcuB, ompT, cusB, hdeA, sdhA, ecpR
+EXP	exp_sRNA_08297	64	37	25	-18.23	-18.23	adhE, cueO, ecpC, yhbV, ycgR, cspA, copA, fliC, fumB, fimI, sdhA, ompT, iscR, betI, cheZ, betT, feoB, znuA, ecpB, fimC, iscA, betB, fimA, betA, icsS
+EXP	exp_sRNA_03858	64	26	17	-16.35	-16.35	icsS, fimG, betB, fimD, mqo, iscA, fimC, sdhA, adhE, cusA, ecpA, cheZ, dcuB, yhbV, iscU, ompT, hdeA
+EXP	exp_sRNA_02718	64	17	11	-14.92	-14.92	htpG, fimD, betA, fimG, fliC, fumB, icsS, hdeA, znuA, betI, cheZ
+EXP	exp_sRNA_05517	64	13	10	-17.41	-17.41	dcuB, cyoA, fimA, zinT, copA, cusA, fimI, betB, cspA, fimD
+EXP	exp_sRNA_05518	64	13	7	-17.5	-13.99	ecpB, cueO, ecpR, iscR, mqo, ecpC, cspA
+EXP	exp_sRNA_02140	64	8	3	-12.56	-11.67	hdeD, betA, kfiA
+STA	sta_sRNA_00457	170	119	49	-22.73	-22.73	uvrD, clbJ, hslU, ecpB, bhsA, fimD, nuoN, ybtX, ybfE, ybtQ, irp9, mepM, fhuA, hycH, zinT, cspA, fyuA, ecpR, bssS, ibpA, bluF, HMWP2, hycA, rfaP, clpP, csgB, ecpC, stpA, recF, hspQ, rstA, osmF, fadE, ecpA, znuA, osmC, elaB, clpX, zraP, rfaQ, cyoA, entH, rstB, znuB, fiu, rfaG, clbC, htpX, ybtP
+STA	sta_sRNA_00609	170	100	45	-19.23	-16.97	hslU, nuoN, bluF, irp9, znuB, trxC, clpX, rstB, hycD, osmF, bssS, dsbG, fdhD, fimD, elaB, fadE, csgB, hycH, hycA, rfaP, cyoA, cspA, ybtX, znuA, ecpR, entH, hspQ, gadA, zinT, ybtP, osmC, recQ, ibpA, hycE, clbJ, rfaG, nuoB, bhsA, rstA, zraP, clbC, ybtQ, mepM, hycC, znuC
+STA	sta_sRNA_00141	170	51	23	-21.91	-20.53	rfaP, elaB, bhsA, ybfE, fyuA, hycD, ybtP, zinT, csgB, fdhD, nuoB, recQ, alx, clbC, osmF, stpA, csgA, hycC, grxA, znuB, htpX, hycE, ecpC

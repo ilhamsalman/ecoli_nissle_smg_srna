@@ -1,4 +1,3 @@
 sta_sRNA_00457
-sta_sRNA_00609
 sta_sRNA_00141
-
+sta_sRNA_00609

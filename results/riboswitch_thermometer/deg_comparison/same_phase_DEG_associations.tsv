@@ -1,0 +1,3 @@
+phase	prediction_module	prediction_id	Rfam_name	Rfam_ID	associated_CDS	gene_locus	chr	element_start	element_end	strand	E_value	same_phase_DEG	deg_record_count	matched_gene_symbols	matched_log2FC	matched_p_values	matched_adjusted_p
+exponential	riboswitch_module	riboswitch_431	TPP	RF00059	ECOLIN_11935	ECOLIN_11935	CP007799.1	2448777	2448873	+	6.4e-17	yes	1	rcnA			
+stationary	thermometer_module	RNA_thermometer_340	Phe_leader	RF01859	ECOLIN_08700	ECOLIN_08700	CP007799.1	1775461	1775558	+	0.00075	yes	1	manA			

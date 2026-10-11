@@ -1,2 +1,2 @@
 id1;start1;end1;id2;start2;end2;subseqDP;hybridDP;E
-zraP;583;599;sta_sRNA_00141;67;82;GCGGUGGUGGCGGUCAU&AUGAUUGCCAGCCCGU;((((.(.((((((((((&)))))))))).)))));-8.15
+zraP;583;645;sta_sRNA_00141;50;122;GCGGUGGUGGCGGUCAUAUGGGUAUGGGCCACUGGUAAAUCAGAACGUUUUCUCGUUGGGUUG&CGAAACAACAAAACGGAAUGAUUGCCAGCCCGUUAGAAAACACCGGACACUCUCGUGUAAAAAGCUACCCUGU;((((.((((((...(((..(((((((((...(((((((.(((...((((((...((((..(((&)))..))))))))))...)))))))))))))))...............))))..)))......))))))))));-9.63

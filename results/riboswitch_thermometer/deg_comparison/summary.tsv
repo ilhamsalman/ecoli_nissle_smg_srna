@@ -1,0 +1,5 @@
+phase	prediction_module	total_predictions	predictions_associated_with_same_phase_DEG	unique_matched_DEG_loci	total_curated_DEG_rows
+exp	thermometer_module	43	0	0	67
+exp	riboswitch_module	27	1	1	67
+sta	thermometer_module	14	1	1	172
+sta	riboswitch_module	11	0	0	172

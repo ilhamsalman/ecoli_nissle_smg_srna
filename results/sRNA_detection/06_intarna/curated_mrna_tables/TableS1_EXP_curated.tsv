@@ -1,0 +1,68 @@
+Locus Tag	Fold Change	Gene Function	Gene
+ECOLIN_05555	2.4965053528371444	type-1 fimbrial protein subunit A	fimA
+ECOLIN_05560	4.144764120662464	fimbrial protein	fimI
+ECOLIN_05565	3.8470964508342727	molecular chaperone FimC	fimC
+ECOLIN_05570	2.951564767842629	fimbrial protein	fimD
+ECOLIN_05585	2.1772393262492593	fimbrial protein	fimG
+ECOLIN_07000	2.4949484374329067	flagellar brake protein	ycgR
+ECOLIN_10620	2.7595250846814503	flagellin	fliC
+ECOLIN_04675	2.2774351912814215	formate transporter	focA
+ECOLIN_01835	3.5133322103358084	hypothetical protein	ecpC
+ECOLIN_01840	3.5719700898539566	hypothetical protein	ecpB
+ECOLIN_01845	3.560031483825205	fimbrial protein	ecpA
+ECOLIN_01850	2.7643494446050636	LuxR family transcriptional regulator	ecpR
+ECOLIN_24830	2.330726951069212	kfiB protein	kfiB
+ECOLIN_25910	2.2518644693049006	kfiB protein	kfiB
+ECOLIN_25915	2.542468676452194	hypothetical protein	kfiA
+ECOLIN_25920	2.6062762333337495	kfiB protein	kfiB
+ECOLIN_25925	2.473184724490158	hypothetical protein	kfiA
+ECOLIN_02730	2.059950970775028	heat shock protein 90	htpG
+ECOLIN_19660	2.3836294874591903	cold-shock protein	cspA
+ECOLIN_01995	4.28801514109777	choline transporter	betT
+ECOLIN_01990	4.533923346089888	transcriptional regulator BetI	betI
+ECOLIN_01985	3.1566843351556697	betaine-aldehyde dehydrogenase	betB
+ECOLIN_01980	2.2107103287765018	choline dehydrogenase	betA
+ECOLIN_19410	2.380690374189378	acid-resistance protein	hdeB
+ECOLIN_19415	2.752247094807036	acid-resistance protein	hdeA
+ECOLIN_19420	2.5254316566211306	acid-resistance membrane protein	hdeD
+ECOLIN_08270	2.484972695909694	glutamate decarboxylase	gadB
+ECOLIN_19450	2.3606268347962187	glutamate decarboxylase	gadA
+ECOLIN_18830	2.2954229401209747	ferrous iron transporter B	feoB
+ECOLIN_03060	9.581091364094643	copper resistance protein	cusB
+ECOLIN_03065	7.32414320680353	cation transporter	cusA
+ECOLIN_02785	6.068542240459111	copper-transporting ATPase	copA
+ECOLIN_11935	5.530576987135789	nickel/cobalt efflux protein RcnA	rcnA
+ECOLIN_09975	2.823667080079319	zinc ABC transporter substrate-binding protein	znuA
+ECOLIN_10835	2.4282046203812446	zinc/cadmium-binding protein	zinT
+ECOLIN_17520	3.0471489009584722	protease	yhbU
+ECOLIN_17525	5.102980044532922	protease	yhbV
+ECOLIN_23110	2.675372915053215	fumarate hydratase	fumB
+ECOLIN_13880	2.726008385428737	transcriptional regulator	iscR
+ECOLIN_13875	2.883418010119251	cysteine desulfurase	icsS
+ECOLIN_13870	2.2796779036665744	scaffolding protein	iscU
+ECOLIN_13865	3.310433156342896	iron-sulfur cluster assembly protein	iscA
+ECOLIN_13855	2.0517002912555355	chaperone protein HscA	hscA
+ECOLIN_21820	2.321810132946294	sulfate transporter subunit	sbp
+ECOLIN_09330	2.2718223112090663	L-cystine transporter tcyP	tcyP
+ECOLIN_09470	2.8125134585748865	thiosulfate sulfurtransferase	glpE
+ECOLIN_03020	2.3361614807510365	protease	ompT
+ECOLIN_21815	2.265014050923674	6-phosphofructokinase	pfkA
+ECOLIN_07920	3.6813119317161695	glyceraldehyde-3-phosphate dehydrogenase	gapA
+ECOLIN_03745	3.244261250318452	succinate dehydrogenase	sdhA
+ECOLIN_12455	2.7649243346825907	malate:quinone oxidoreductase	mqo
+ECOLIN_05680	4.166222818916094	hypothetical protein	cobW
+ECOLIN_08595	2.9604161667281157	dethiobiotin synthetase	bioD
+ECOLIN_00365	2.4722077773150906	isopropylmalate isomerase	leuC
+ECOLIN_15410	9.986921283627543	diaminopimelate decarboxylase	lysA
+ECOLIN_23295	2.1024041083865406	aspartate ammonia-lyase	aspA
+ECOLIN_00645	3.497053821395878	multicopper oxidase	cueO
+ECOLIN_02185	2.59465010374746	taurine ABC transporter substrate-binding protein	tauA
+ECOLIN_02515	2.453701922501708	cytochrome o ubiquinol oxidase subunit II	cyoA
+ECOLIN_06340	2.1057877073564892	peptidase T	pepT
+ECOLIN_06975	2.1553915886127384	amino acid dehydrogenase	dadX
+ECOLIN_07285	3.0341449310652817	acetaldehyde dehydrogenase	adhE
+ECOLIN_12880	3.567540975313115	hypothetical protein	yfcC
+ECOLIN_19355	2.522072940079997	membrane protein	slp
+ECOLIN_22435	2.705040135660707	(alpha)-aspartyl dipeptidase	pepE
+ECOLIN_23115	3.619298253555644	C4-dicarboxylate transporter	dcuB
+ECOLIN_24215	2.14408187747665	chemotaxis protein	cheZ

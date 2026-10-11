@@ -1,2 +1,2 @@
 id1;start1;end1;id2;start2;end2;subseqDP;hybridDP;E
-bluF;525;540;sta_sRNA_00457;55;70;AUUCUGGGUAAAAUGA&UCGUUUUGCCCGGUGU;((.(((((((((((((&))))))))))))).));-11.91
+bluF;502;540;sta_sRNA_00457;55;104;UGAUUGGCGGUACGGGUGGUGCAAUUCUGGGUAAAAUGA&UCGUUUUGCCCGGUGUCAACUCACUGUAUCAGGUGUAAUAAAGUCAUUCA;(((.(((((((((((..(((...((.(((((((((((((&))))))))))))).))..)))..)))))))............)))).)));-12.65

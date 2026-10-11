@@ -1,0 +1,68 @@
+Target_ID	Locus Tag	Gene	Fold Change	Gene Function	Start_0based	End_0based	Strand	Target_Length	Coordinate_Source	FASTA
+fimA	ECOLIN_05555	fimA	2.4965053528371444	type-1 fimbrial protein subunit A	1161342	1162042	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/fimA.fasta
+fimI	ECOLIN_05560	fimI	4.144764120662464	fimbrial protein	1161955	1162655	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/fimI.fasta
+fimC	ECOLIN_05565	fimC	3.8470964508342727	molecular chaperone FimC	1162535	1163235	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/fimC.fasta
+fimD	ECOLIN_05570	fimD	2.951564767842629	fimbrial protein	1163300	1164000	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/fimD.fasta
+fimG	ECOLIN_05585	fimG	2.1772393262492598	fimbrial protein	1166988	1167688	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/fimG.fasta
+ycgR	ECOLIN_07000	ycgR	2.4949484374329067	flagellar brake protein	1407058	1407758	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/ycgR.fasta
+fliC	ECOLIN_10620	fliC	2.7595250846814503	flagellin	2131625	2132325	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/fliC.fasta
+focA	ECOLIN_04675	focA	2.277435191281421	formate transporter	977602	978302	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/focA.fasta
+ecpC	ECOLIN_01835	ecpC	3.5133322103358084	hypothetical protein	382426	383126	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/ecpC.fasta
+ecpB	ECOLIN_01840	ecpB	3.5719700898539566	hypothetical protein	383120	383820	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/ecpB.fasta
+ecpA	ECOLIN_01845	ecpA	3.560031483825205	fimbrial protein	383764	384464	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/ecpA.fasta
+ecpR	ECOLIN_01850	ecpR	2.764349444605064	LuxR family transcriptional regulator	384381	385081	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/ecpR.fasta
+kfiB__ECOLIN_24830	ECOLIN_24830	kfiB	2.330726951069212	kfiB protein	5145149	5145849	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/kfiB__ECOLIN_24830.fasta
+kfiB__ECOLIN_25910	ECOLIN_25910	kfiB	2.2518644693049006	kfiB protein	5335474	5336174	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/kfiB__ECOLIN_25910.fasta
+kfiA__ECOLIN_25915	ECOLIN_25915	kfiA	2.542468676452194	hypothetical protein	5336625	5337325	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/kfiA__ECOLIN_25915.fasta
+kfiB__ECOLIN_25920	ECOLIN_25920	kfiB	2.606276233333749	kfiB protein	5338761	5339461	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/kfiB__ECOLIN_25920.fasta
+kfiA__ECOLIN_25925	ECOLIN_25925	kfiA	2.473184724490158	hypothetical protein	5339912	5340612	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/kfiA__ECOLIN_25925.fasta
+htpG	ECOLIN_02730	htpG	2.059950970775028	heat shock protein 90	574784	575484	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/htpG.fasta
+cspA	ECOLIN_19660	cspA	2.3836294874591903	cold-shock protein	4092218	4092918	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/cspA.fasta
+betT	ECOLIN_01995	betT	4.28801514109777	choline transporter	418229	418929	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/betT.fasta
+betI	ECOLIN_01990	betI	4.533923346089888	transcriptional regulator BetI	417801	418501	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/betI.fasta
+betB	ECOLIN_01985	betB	3.1566843351556697	betaine-aldehyde dehydrogenase	417200	417900	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/betB.fasta
+betA	ECOLIN_01980	betA	2.2107103287765018	choline dehydrogenase	415714	416414	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/betA.fasta
+hdeB	ECOLIN_19410	hdeB	2.380690374189378	acid-resistance protein	4027882	4028582	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/hdeB.fasta
+hdeA	ECOLIN_19415	hdeA	2.752247094807036	acid-resistance protein	4028318	4029018	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/hdeA.fasta
+hdeD	ECOLIN_19420	hdeD	2.5254316566211306	acid-resistance membrane protein	4028872	4029572	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/hdeD.fasta
+gadB	ECOLIN_08270	gadB	2.484972695909694	glutamate decarboxylase	1685274	1685974	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/gadB.fasta
+gadA	ECOLIN_19450	gadA	2.3606268347962187	glutamate decarboxylase	4039157	4039857	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/gadA.fasta
+feoB	ECOLIN_18830	feoB	2.2954229401209747	ferrous iron transporter B	3896456	3897156	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/feoB.fasta
+cusB	ECOLIN_03060	cusB	9.581091364094643	copper resistance protein	645989	646689	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/cusB.fasta
+cusA	ECOLIN_03065	cusA	7.32414320680353	cation transporter	647224	647924	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/cusA.fasta
+copA	ECOLIN_02785	copA	6.068542240459111	copper-transporting ATPase	590711	591411	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/copA.fasta
+rcnA	ECOLIN_11935	rcnA	5.530576987135789	nickel/cobalt efflux protein RcnA	2449147	2449847	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/rcnA.fasta
+znuA	ECOLIN_09975	znuA	2.823667080079319	zinc ABC transporter substrate-binding protein	2026074	2026774	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/znuA.fasta
+zinT	ECOLIN_10835	zinT	2.4282046203812446	zinc/cadmium-binding protein	2168537	2169237	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/zinT.fasta
+yhbU	ECOLIN_17520	yhbU	3.047148900958472	protease	3653956	3654656	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/yhbU.fasta
+yhbV	ECOLIN_17525	yhbV	5.102980044532922	protease	3654960	3655660	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/yhbV.fasta
+fumB	ECOLIN_23110	fumB	2.675372915053215	fumarate hydratase	4810900	4811600	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/fumB.fasta
+iscR	ECOLIN_13880	iscR	2.726008385428737	transcriptional regulator	2901877	2902577	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/iscR.fasta
+icsS	ECOLIN_13875	icsS	2.883418010119251	cysteine desulfurase	2901277	2901977	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/icsS.fasta
+iscU	ECOLIN_13870	iscU	2.2796779036665744	scaffolding protein	2900035	2900735	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/iscU.fasta
+iscA	ECOLIN_13865	iscA	3.310433156342896	iron-sulfur cluster assembly protein	2899632	2900332	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/iscA.fasta
+hscA	ECOLIN_13855	hscA	2.0517002912555355	chaperone protein HscA	2898681	2899381	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/hscA.fasta
+sbp	ECOLIN_21820	sbp	2.321810132946294	sulfate transporter subunit	4531430	4532130	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/sbp.fasta
+tcyP	ECOLIN_09330	tcyP	2.2718223112090663	L-cystine transporter tcyP	1898142	1898842	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/tcyP.fasta
+glpE	ECOLIN_09470	glpE	2.8125134585748865	thiosulfate sulfurtransferase	1925423	1926123	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/glpE.fasta
+ompT	ECOLIN_03020	ompT	2.3361614807510365	protease	634768	635468	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/ompT.fasta
+pfkA	ECOLIN_21815	pfkA	2.265014050923674	6-phosphofructokinase	4530148	4530848	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/pfkA.fasta
+gapA	ECOLIN_07920	gapA	3.6813119317161695	glyceraldehyde-3-phosphate dehydrogenase	1612383	1613083	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/gapA.fasta
+sdhA	ECOLIN_03745	sdhA	3.244261250318452	succinate dehydrogenase	787139	787839	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/sdhA.fasta
+mqo	ECOLIN_12455	mqo	2.7649243346825907	malate:quinone oxidoreductase	2565252	2565952	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/mqo.fasta
+cobW	ECOLIN_05680	cobW	4.166222818916094	hypothetical protein	1189562	1190262	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/cobW.fasta
+bioD	ECOLIN_08595	bioD	2.960416166728116	dethiobiotin synthetase	1755483	1756183	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/bioD.fasta
+leuC	ECOLIN_00365	leuC	2.4722077773150906	isopropylmalate isomerase	82141	82841	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/leuC.fasta
+lysA	ECOLIN_15410	lysA	9.986921283627543	diaminopimelate decarboxylase	3222724	3223424	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/lysA.fasta
+aspA	ECOLIN_23295	aspA	2.102404108386541	aspartate ammonia-lyase	4840435	4841135	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/aspA.fasta
+cueO	ECOLIN_00645	cueO	3.497053821395878	multicopper oxidase	144082	144782	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/cueO.fasta
+tauA	ECOLIN_02185	tauA	2.59465010374746	taurine ABC transporter substrate-binding protein	461071	461771	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/tauA.fasta
+cyoA	ECOLIN_02515	cyoA	2.453701922501708	cytochrome o ubiquinol oxidase subunit II	530416	531116	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/cyoA.fasta
+pepT	ECOLIN_06340	pepT	2.105787707356489	peptidase T	1307687	1308387	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/pepT.fasta
+dadX	ECOLIN_06975	dadX	2.1553915886127384	amino acid dehydrogenase	1400730	1401430	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/dadX.fasta
+adhE	ECOLIN_07285	adhE	3.0341449310652817	acetaldehyde dehydrogenase	1468680	1469380	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/adhE.fasta
+yfcC	ECOLIN_12880	yfcC	3.567540975313115	hypothetical protein	2671486	2672186	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/yfcC.fasta
+slp	ECOLIN_19355	slp	2.522072940079997	membrane protein	4016822	4017522	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/slp.fasta
+pepE	ECOLIN_22435	pepE	2.705040135660707	(alpha)-aspartyl dipeptidase	4666392	4667092	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/pepE.fasta
+dcuB	ECOLIN_23115	dcuB	3.619298253555644	C4-dicarboxylate transporter	4812318	4813018	-	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/dcuB.fasta
+cheZ	ECOLIN_24215	cheZ	2.14408187747665	chemotaxis protein	5028159	5028859	+	700	current_annotation	results/sRNA_detection/06_intarna/sequences/mrnas/deg_exp/cheZ.fasta

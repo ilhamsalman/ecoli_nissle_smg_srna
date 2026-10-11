@@ -2,7 +2,7 @@
 Filtered conservation summary for selected exp/sta sRNAs
 ==========================================================================
 
-Total selected sequences: 9
+Total selected sequences: 11
 Minimum percent identity: 70.0%
 Minimum query coverage : 80.0%
 
@@ -14,6 +14,8 @@ exp     exp_sRNA_03878     N/A          N/A          100.0%       100.0%     Par
 exp     exp_sRNA_05517     N/A          N/A          92.6%        100.0%     Partially conserved         
 exp     exp_sRNA_03858     N/A          N/A          100.0%       100.0%     Partially conserved         
 exp     exp_sRNA_08297     N/A          N/A          N/A          N/A        No supported hit            
+exp     exp_sRNA_02718     98.6%        N/A          100.0%       100.0%     Partially conserved         
+exp     exp_sRNA_02140     N/A          N/A          100.0%       100.0%     Partially conserved         
 sta     sta_sRNA_00457     97.3%        97.3%        100.0%       100.0%     Conserved (high-confidence) 
 sta     sta_sRNA_00609     97.9%        96.5%        99.3%        100.0%     Conserved (high-confidence) 
 sta     sta_sRNA_00141     N/A          N/A          100.0%       100.0%     Partially conserved         

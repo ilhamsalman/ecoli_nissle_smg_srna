@@ -1,0 +1,138 @@
+phase	srna	target_gene	best_deltaG	yim_group	function	detailed_category	n_loci	target_loci
+EXP	exp_sRNA_02037	fimD	-19.05	Biofilm formation	Fimbrial usher protein FimD	Biofilm / adhesion	1	fimD
+EXP	exp_sRNA_02037	fimI	-15.21	Biofilm formation	Fimbrial protein FimI	Biofilm / adhesion	1	fimI
+EXP	exp_sRNA_02037	ycgR	-14.48	Biofilm formation	Flagellar brake protein YcgR	c-di-GMP-mediated motility control	1	ycgR
+EXP	exp_sRNA_02037	cheZ	-13.35	Biofilm formation	Chemotaxis phosphatase CheZ	Chemotaxis / motility	1	cheZ
+EXP	exp_sRNA_02037	yhbU	-13.11	Biofilm formation	Predicted peptidase YhbU	Envelope stress / peptidoglycan	1	yhbU
+EXP	exp_sRNA_02037	kfiA	-12.21	Biofilm formation	Polysialic acid biosynthesis protein KfiA	Capsule biosynthesis	2	kfiA__ECOLIN_25915, kfiA__ECOLIN_25925
+EXP	exp_sRNA_02037	ecpA	-11.53	Biofilm formation	E. coli common pilus subunit EcpA	Biofilm / adhesion	1	ecpA
+EXP	exp_sRNA_02037	ecpC	-11.34	Biofilm formation	E. coli common pilus usher EcpC	Biofilm / adhesion	1	ecpC
+EXP	exp_sRNA_02037	fliC	-10.87	Biofilm formation	Flagellin FliC	Flagellar motility	1	fliC
+EXP	exp_sRNA_02037	ecpB	-10.64	Biofilm formation	E. coli common pilus chaperone EcpB	Biofilm / adhesion	1	ecpB
+EXP	exp_sRNA_02037	ompT	-10.49	Biofilm formation	Outer membrane protease OmpT	Virulence / proteolysis	1	ompT
+EXP	exp_sRNA_02037	ecpR	-10.19	Biofilm formation	E. coli common pilus regulator EcpR	Biofilm / adhesion	1	ecpR
+EXP	exp_sRNA_02037	mqo	-13.56	Carbon metabolism	Malate:quinone oxidoreductase	TCA cycle	1	mqo
+EXP	exp_sRNA_02037	fumB	-11.07	Carbon metabolism	Fumarate hydratase B (anaerobic)	TCA cycle / anaerobic metabolism	1	fumB
+EXP	exp_sRNA_02037	dcuB	-10.51	Carbon metabolism	Anaerobic C4-dicarboxylate transporter DcuB	Anaerobic metabolism	1	dcuB
+EXP	exp_sRNA_02037	sdhA	-10.24	Carbon metabolism	Succinate dehydrogenase flavoprotein subunit	TCA cycle	1	sdhA
+EXP	exp_sRNA_02037	cueO	-19.11	Metal ion transport/utilization	Multicopper oxidase CueO	Copper homeostasis	1	cueO
+EXP	exp_sRNA_02037	iscU	-18.24	Metal ion transport/utilization	Iron-sulfur cluster assembly scaffold IscU	Iron-sulfur cluster assembly	1	iscU
+EXP	exp_sRNA_02037	iscA	-18.1	Metal ion transport/utilization	Iron-sulfur cluster assembly protein IscA	Iron-sulfur cluster assembly	1	iscA
+EXP	exp_sRNA_02037	iscR	-15.86	Metal ion transport/utilization	Iron-sulfur cluster regulator IscR	Iron-sulfur cluster assembly	1	iscR
+EXP	exp_sRNA_02037	znuA	-13.83	Metal ion transport/utilization	Zinc ABC transporter periplasmic binding protein	Zinc homeostasis	1	znuA
+EXP	exp_sRNA_02037	zinT	-13.59	Metal ion transport/utilization	Zinc-binding periplasmic protein ZinT	Zinc stress response	1	zinT
+EXP	exp_sRNA_02037	feoB	-11.37	Metal ion transport/utilization	Ferrous iron transporter B	Iron acquisition	1	feoB
+EXP	exp_sRNA_02037	cusB	-10.36	Metal ion transport/utilization	Copper/silver efflux pump CusB	Copper/silver resistance	1	cusB
+EXP	exp_sRNA_02037	htpG	-14.36	Stress responses	High-temperature protein G (Hsp90 homolog)	Heat stress / chaperone	1	htpG
+EXP	exp_sRNA_02037	betT	-13.87	Stress responses	Choline transporter BetT	Osmoprotectant synthesis	1	betT
+EXP	exp_sRNA_02037	betA	-11.18	Stress responses	Choline dehydrogenase BetA	Osmoprotectant synthesis	1	betA
+EXP	exp_sRNA_02037	betB	-10.68	Stress responses	Betaine aldehyde dehydrogenase BetB	Osmoprotectant synthesis	1	betB
+EXP	exp_sRNA_02037	hdeD	-10.55	Stress responses	Acid resistance inner membrane protein	Acid stress response	1	hdeD
+EXP	exp_sRNA_02037	hdeA	-10.3	Stress responses	Acid resistance protein HdeA	Acid stress response	1	hdeA
+EXP	exp_sRNA_02140	kfiA	-10.6	Biofilm formation	Polysialic acid biosynthesis protein KfiA	Capsule biosynthesis	2	kfiA__ECOLIN_25915, kfiA__ECOLIN_25925
+EXP	exp_sRNA_02140	hdeD	-11.67	Stress responses	Acid resistance inner membrane protein	Acid stress response	1	hdeD
+EXP	exp_sRNA_02140	betA	-11.51	Stress responses	Choline dehydrogenase BetA	Osmoprotectant synthesis	1	betA
+EXP	exp_sRNA_02718	fimD	-13.29	Biofilm formation	Fimbrial usher protein FimD	Biofilm / adhesion	1	fimD
+EXP	exp_sRNA_02718	fimG	-12.36	Biofilm formation	Fimbrial protein FimG	Biofilm / adhesion	1	fimG
+EXP	exp_sRNA_02718	fliC	-11.69	Biofilm formation	Flagellin FliC	Flagellar motility	1	fliC
+EXP	exp_sRNA_02718	icsS	-11.22	Biofilm formation	IcsS protein	Virulence / actin motility	1	icsS
+EXP	exp_sRNA_02718	cheZ	-10.1	Biofilm formation	Chemotaxis phosphatase CheZ	Chemotaxis / motility	1	cheZ
+EXP	exp_sRNA_02718	fumB	-11.54	Carbon metabolism	Fumarate hydratase B (anaerobic)	TCA cycle / anaerobic metabolism	1	fumB
+EXP	exp_sRNA_02718	znuA	-10.82	Metal ion transport/utilization	Zinc ABC transporter periplasmic binding protein	Zinc homeostasis	1	znuA
+EXP	exp_sRNA_02718	htpG	-14.92	Stress responses	High-temperature protein G (Hsp90 homolog)	Heat stress / chaperone	1	htpG
+EXP	exp_sRNA_02718	betA	-12.45	Stress responses	Choline dehydrogenase BetA	Osmoprotectant synthesis	1	betA
+EXP	exp_sRNA_02718	hdeA	-11.18	Stress responses	Acid resistance protein HdeA	Acid stress response	1	hdeA
+EXP	exp_sRNA_02718	betI	-10.81	Stress responses	Bet operon transcriptional repressor BetI	Osmoprotectant regulation	1	betI
+EXP	exp_sRNA_03858	icsS	-16.35	Biofilm formation	IcsS protein	Virulence / actin motility	1	icsS
+EXP	exp_sRNA_03858	fimG	-15.43	Biofilm formation	Fimbrial protein FimG	Biofilm / adhesion	1	fimG
+EXP	exp_sRNA_03858	fimD	-12.97	Biofilm formation	Fimbrial usher protein FimD	Biofilm / adhesion	1	fimD
+EXP	exp_sRNA_03858	fimC	-11.91	Biofilm formation	Fimbrial chaperone FimC	Biofilm / adhesion	1	fimC
+EXP	exp_sRNA_03858	ecpA	-11.29	Biofilm formation	E. coli common pilus subunit EcpA	Biofilm / adhesion	1	ecpA
+EXP	exp_sRNA_03858	cheZ	-11.21	Biofilm formation	Chemotaxis phosphatase CheZ	Chemotaxis / motility	1	cheZ
+EXP	exp_sRNA_03858	yhbV	-11.02	Biofilm formation	Predicted peptidase YhbV	Envelope stress / peptidoglycan	1	yhbV
+EXP	exp_sRNA_03858	ompT	-10.67	Biofilm formation	Outer membrane protease OmpT	Virulence / proteolysis	1	ompT
+EXP	exp_sRNA_03858	mqo	-12.72	Carbon metabolism	Malate:quinone oxidoreductase	TCA cycle	1	mqo
+EXP	exp_sRNA_03858	sdhA	-11.81	Carbon metabolism	Succinate dehydrogenase flavoprotein subunit	TCA cycle	1	sdhA
+EXP	exp_sRNA_03858	adhE	-11.7	Carbon metabolism	Alcohol/aldehyde dehydrogenase AdhE	Anaerobic fermentation	1	adhE
+EXP	exp_sRNA_03858	dcuB	-11.06	Carbon metabolism	Anaerobic C4-dicarboxylate transporter DcuB	Anaerobic metabolism	1	dcuB
+EXP	exp_sRNA_03858	iscA	-12.06	Metal ion transport/utilization	Iron-sulfur cluster assembly protein IscA	Iron-sulfur cluster assembly	1	iscA
+EXP	exp_sRNA_03858	cusA	-11.68	Metal ion transport/utilization	Copper/silver efflux pump CusA	Copper/silver resistance	1	cusA
+EXP	exp_sRNA_03858	iscU	-10.78	Metal ion transport/utilization	Iron-sulfur cluster assembly scaffold IscU	Iron-sulfur cluster assembly	1	iscU
+EXP	exp_sRNA_03858	betB	-13.89	Stress responses	Betaine aldehyde dehydrogenase BetB	Osmoprotectant synthesis	1	betB
+EXP	exp_sRNA_03858	hdeA	-10.15	Stress responses	Acid resistance protein HdeA	Acid stress response	1	hdeA
+EXP	exp_sRNA_03878	ompT	-17.29	Biofilm formation	Outer membrane protease OmpT	Virulence / proteolysis	1	ompT
+EXP	exp_sRNA_03878	ecpA	-14.72	Biofilm formation	E. coli common pilus subunit EcpA	Biofilm / adhesion	1	ecpA
+EXP	exp_sRNA_03878	yhbU	-14.44	Biofilm formation	Predicted peptidase YhbU	Envelope stress / peptidoglycan	1	yhbU
+EXP	exp_sRNA_03878	ecpR	-14.4	Biofilm formation	E. coli common pilus regulator EcpR	Biofilm / adhesion	1	ecpR
+EXP	exp_sRNA_03878	ecpB	-13.75	Biofilm formation	E. coli common pilus chaperone EcpB	Biofilm / adhesion	1	ecpB
+EXP	exp_sRNA_03878	icsS	-13.46	Biofilm formation	IcsS protein	Virulence / actin motility	1	icsS
+EXP	exp_sRNA_03878	fimC	-13.09	Biofilm formation	Fimbrial chaperone FimC	Biofilm / adhesion	1	fimC
+EXP	exp_sRNA_03878	fimD	-11.13	Biofilm formation	Fimbrial usher protein FimD	Biofilm / adhesion	1	fimD
+EXP	exp_sRNA_03878	fimA	-10.8	Biofilm formation	Major type 1 fimbrial subunit FimA	Biofilm / adhesion	1	fimA
+EXP	exp_sRNA_03878	fimG	-10.53	Biofilm formation	Fimbrial protein FimG	Biofilm / adhesion	1	fimG
+EXP	exp_sRNA_03878	adhE	-15.93	Carbon metabolism	Alcohol/aldehyde dehydrogenase AdhE	Anaerobic fermentation	1	adhE
+EXP	exp_sRNA_03878	dcuB	-14.77	Carbon metabolism	Anaerobic C4-dicarboxylate transporter DcuB	Anaerobic metabolism	1	dcuB
+EXP	exp_sRNA_03878	sdhA	-14.71	Carbon metabolism	Succinate dehydrogenase flavoprotein subunit	TCA cycle	1	sdhA
+EXP	exp_sRNA_03878	fumB	-13.88	Carbon metabolism	Fumarate hydratase B (anaerobic)	TCA cycle / anaerobic metabolism	1	fumB
+EXP	exp_sRNA_03878	mqo	-13.07	Carbon metabolism	Malate:quinone oxidoreductase	TCA cycle	1	mqo
+EXP	exp_sRNA_03878	iscU	-19.31	Metal ion transport/utilization	Iron-sulfur cluster assembly scaffold IscU	Iron-sulfur cluster assembly	1	iscU
+EXP	exp_sRNA_03878	cusA	-16.37	Metal ion transport/utilization	Copper/silver efflux pump CusA	Copper/silver resistance	1	cusA
+EXP	exp_sRNA_03878	cusB	-15.94	Metal ion transport/utilization	Copper/silver efflux pump CusB	Copper/silver resistance	1	cusB
+EXP	exp_sRNA_03878	iscA	-15.51	Metal ion transport/utilization	Iron-sulfur cluster assembly protein IscA	Iron-sulfur cluster assembly	1	iscA
+EXP	exp_sRNA_03878	copA	-14.13	Metal ion transport/utilization	Copper-transporting ATPase CopA	Copper homeostasis	1	copA
+EXP	exp_sRNA_03878	cueO	-13.34	Metal ion transport/utilization	Multicopper oxidase CueO	Copper homeostasis	1	cueO
+EXP	exp_sRNA_03878	feoB	-13.29	Metal ion transport/utilization	Ferrous iron transporter B	Iron acquisition	1	feoB
+EXP	exp_sRNA_03878	znuA	-12.82	Metal ion transport/utilization	Zinc ABC transporter periplasmic binding protein	Zinc homeostasis	1	znuA
+EXP	exp_sRNA_03878	zinT	-11.0	Metal ion transport/utilization	Zinc-binding periplasmic protein ZinT	Zinc stress response	1	zinT
+EXP	exp_sRNA_03878	hdeD	-18.09	Stress responses	Acid resistance inner membrane protein	Acid stress response	1	hdeD
+EXP	exp_sRNA_03878	gadB	-16.72	Stress responses	Glutamate decarboxylase B	Acid stress response (GDAR system)	1	gadB
+EXP	exp_sRNA_03878	gadA	-16.69	Stress responses	Glutamate decarboxylase A	Acid stress response (GDAR system)	1	gadA
+EXP	exp_sRNA_03878	hdeB	-14.58	Stress responses	Acid resistance protein HdeB	Acid stress response	1	hdeB
+EXP	exp_sRNA_03878	htpG	-14.0	Stress responses	High-temperature protein G (Hsp90 homolog)	Heat stress / chaperone	1	htpG
+EXP	exp_sRNA_03878	betA	-13.28	Stress responses	Choline dehydrogenase BetA	Osmoprotectant synthesis	1	betA
+EXP	exp_sRNA_03878	betI	-13.26	Stress responses	Bet operon transcriptional repressor BetI	Osmoprotectant regulation	1	betI
+EXP	exp_sRNA_03878	betT	-12.75	Stress responses	Choline transporter BetT	Osmoprotectant synthesis	1	betT
+EXP	exp_sRNA_03878	betB	-12.7	Stress responses	Betaine aldehyde dehydrogenase BetB	Osmoprotectant synthesis	1	betB
+EXP	exp_sRNA_03878	cspA	-11.66	Stress responses	Cold shock protein A	Stress response	1	cspA
+EXP	exp_sRNA_05517	fimA	-15.18	Biofilm formation	Major type 1 fimbrial subunit FimA	Biofilm / adhesion	1	fimA
+EXP	exp_sRNA_05517	fimI	-11.96	Biofilm formation	Fimbrial protein FimI	Biofilm / adhesion	1	fimI
+EXP	exp_sRNA_05517	fimD	-10.26	Biofilm formation	Fimbrial usher protein FimD	Biofilm / adhesion	1	fimD
+EXP	exp_sRNA_05517	dcuB	-17.41	Carbon metabolism	Anaerobic C4-dicarboxylate transporter DcuB	Anaerobic metabolism	1	dcuB
+EXP	exp_sRNA_05517	cyoA	-15.56	Carbon metabolism	Cytochrome bo3 ubiquinol oxidase subunit I	Aerobic respiration	1	cyoA
+EXP	exp_sRNA_05517	zinT	-14.25	Metal ion transport/utilization	Zinc-binding periplasmic protein ZinT	Zinc stress response	1	zinT
+EXP	exp_sRNA_05517	copA	-13.25	Metal ion transport/utilization	Copper-transporting ATPase CopA	Copper homeostasis	1	copA
+EXP	exp_sRNA_05517	cusA	-13.2	Metal ion transport/utilization	Copper/silver efflux pump CusA	Copper/silver resistance	1	cusA
+EXP	exp_sRNA_05517	betB	-11.25	Stress responses	Betaine aldehyde dehydrogenase BetB	Osmoprotectant synthesis	1	betB
+EXP	exp_sRNA_05517	cspA	-10.93	Stress responses	Cold shock protein A	Stress response	1	cspA
+EXP	exp_sRNA_05518	ecpB	-13.99	Biofilm formation	E. coli common pilus chaperone EcpB	Biofilm / adhesion	1	ecpB
+EXP	exp_sRNA_05518	ecpR	-10.93	Biofilm formation	E. coli common pilus regulator EcpR	Biofilm / adhesion	1	ecpR
+EXP	exp_sRNA_05518	ecpC	-10.52	Biofilm formation	E. coli common pilus usher EcpC	Biofilm / adhesion	1	ecpC
+EXP	exp_sRNA_05518	mqo	-10.66	Carbon metabolism	Malate:quinone oxidoreductase	TCA cycle	1	mqo
+EXP	exp_sRNA_05518	cueO	-11.68	Metal ion transport/utilization	Multicopper oxidase CueO	Copper homeostasis	1	cueO
+EXP	exp_sRNA_05518	iscR	-10.82	Metal ion transport/utilization	Iron-sulfur cluster regulator IscR	Iron-sulfur cluster assembly	1	iscR
+EXP	exp_sRNA_05518	cspA	-10.21	Stress responses	Cold shock protein A	Stress response	1	cspA
+EXP	exp_sRNA_08297	ecpC	-17.73	Biofilm formation	E. coli common pilus usher EcpC	Biofilm / adhesion	1	ecpC
+EXP	exp_sRNA_08297	yhbV	-16.89	Biofilm formation	Predicted peptidase YhbV	Envelope stress / peptidoglycan	1	yhbV
+EXP	exp_sRNA_08297	ycgR	-14.49	Biofilm formation	Flagellar brake protein YcgR	c-di-GMP-mediated motility control	1	ycgR
+EXP	exp_sRNA_08297	fliC	-13.33	Biofilm formation	Flagellin FliC	Flagellar motility	1	fliC
+EXP	exp_sRNA_08297	fimI	-12.89	Biofilm formation	Fimbrial protein FimI	Biofilm / adhesion	1	fimI
+EXP	exp_sRNA_08297	ompT	-12.56	Biofilm formation	Outer membrane protease OmpT	Virulence / proteolysis	1	ompT
+EXP	exp_sRNA_08297	cheZ	-12.04	Biofilm formation	Chemotaxis phosphatase CheZ	Chemotaxis / motility	1	cheZ
+EXP	exp_sRNA_08297	ecpB	-11.5	Biofilm formation	E. coli common pilus chaperone EcpB	Biofilm / adhesion	1	ecpB
+EXP	exp_sRNA_08297	fimC	-11.36	Biofilm formation	Fimbrial chaperone FimC	Biofilm / adhesion	1	fimC
+EXP	exp_sRNA_08297	fimA	-10.7	Biofilm formation	Major type 1 fimbrial subunit FimA	Biofilm / adhesion	1	fimA
+EXP	exp_sRNA_08297	icsS	-10.23	Biofilm formation	IcsS protein	Virulence / actin motility	1	icsS
+EXP	exp_sRNA_08297	adhE	-18.23	Carbon metabolism	Alcohol/aldehyde dehydrogenase AdhE	Anaerobic fermentation	1	adhE
+EXP	exp_sRNA_08297	fumB	-13.09	Carbon metabolism	Fumarate hydratase B (anaerobic)	TCA cycle / anaerobic metabolism	1	fumB
+EXP	exp_sRNA_08297	sdhA	-12.68	Carbon metabolism	Succinate dehydrogenase flavoprotein subunit	TCA cycle	1	sdhA
+EXP	exp_sRNA_08297	cueO	-18.2	Metal ion transport/utilization	Multicopper oxidase CueO	Copper homeostasis	1	cueO
+EXP	exp_sRNA_08297	copA	-13.54	Metal ion transport/utilization	Copper-transporting ATPase CopA	Copper homeostasis	1	copA
+EXP	exp_sRNA_08297	iscR	-12.42	Metal ion transport/utilization	Iron-sulfur cluster regulator IscR	Iron-sulfur cluster assembly	1	iscR
+EXP	exp_sRNA_08297	feoB	-11.72	Metal ion transport/utilization	Ferrous iron transporter B	Iron acquisition	1	feoB
+EXP	exp_sRNA_08297	znuA	-11.56	Metal ion transport/utilization	Zinc ABC transporter periplasmic binding protein	Zinc homeostasis	1	znuA
+EXP	exp_sRNA_08297	iscA	-11.22	Metal ion transport/utilization	Iron-sulfur cluster assembly protein IscA	Iron-sulfur cluster assembly	1	iscA
+EXP	exp_sRNA_08297	cspA	-13.97	Stress responses	Cold shock protein A	Stress response	1	cspA
+EXP	exp_sRNA_08297	betI	-12.35	Stress responses	Bet operon transcriptional repressor BetI	Osmoprotectant regulation	1	betI
+EXP	exp_sRNA_08297	betT	-11.78	Stress responses	Choline transporter BetT	Osmoprotectant synthesis	1	betT
+EXP	exp_sRNA_08297	betB	-10.72	Stress responses	Betaine aldehyde dehydrogenase BetB	Osmoprotectant synthesis	1	betB
+EXP	exp_sRNA_08297	betA	-10.63	Stress responses	Choline dehydrogenase BetA	Osmoprotectant synthesis	1	betA

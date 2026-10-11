@@ -1,0 +1,118 @@
+phase	srna	target_gene	best_deltaG	yim_group	function	detailed_category	n_loci	target_loci
+STA	sta_sRNA_00141	rfaP	-20.53	Biofilm formation	LPS core heptose kinase RfaP	LPS biosynthesis / envelope	1	rfaP
+STA	sta_sRNA_00141	bhsA	-14.58	Biofilm formation	Biofilm-related outer membrane protein BhsA	Biofilm	1	bhsA
+STA	sta_sRNA_00141	csgB	-12.18	Biofilm formation	Minor curlin subunit CsgB	Biofilm / curli	1	csgB
+STA	sta_sRNA_00141	clbC	-10.55	Biofilm formation	Colibactin biosynthesis protein ClbC	Genotoxin / virulence	1	clbC
+STA	sta_sRNA_00141	csgA	-10.16	Biofilm formation	Major curlin subunit CsgA	Biofilm / curli	1	csgA
+STA	sta_sRNA_00141	ecpC	-10.01	Biofilm formation	E. coli common pilus usher EcpC	Biofilm / adhesion	1	ecpC
+STA	sta_sRNA_00141	hycD	-13.56	Carbon metabolism	Hydrogenase-3 membrane subunit HycD	Hydrogen metabolism	1	hycD
+STA	sta_sRNA_00141	fdhD	-12.15	Carbon metabolism	Formate dehydrogenase accessory protein FdhD	Formate metabolism	1	fdhD
+STA	sta_sRNA_00141	nuoB	-11.63	Carbon metabolism	NADH:ubiquinone oxidoreductase subunit B	Respiratory chain	1	nuoB
+STA	sta_sRNA_00141	hycC	-10.16	Carbon metabolism	Hydrogenase-3 membrane subunit HycC	Hydrogen metabolism	1	hycC
+STA	sta_sRNA_00141	hycE	-10.02	Carbon metabolism	Hydrogenase-3 large subunit HycE	Hydrogen metabolism	1	hycE
+STA	sta_sRNA_00141	fyuA	-14.03	Metal ion transport/utilization	Yersiniabactin receptor FyuA	Siderophore-mediated virulence	1	fyuA
+STA	sta_sRNA_00141	ybtP	-13.17	Metal ion transport/utilization	Yersiniabactin ABC transporter	Iron acquisition / virulence	1	ybtP
+STA	sta_sRNA_00141	zinT	-12.74	Metal ion transport/utilization	Zinc-binding periplasmic protein ZinT	Zinc stress response	1	zinT
+STA	sta_sRNA_00141	znuB	-10.06	Metal ion transport/utilization	Zinc ABC transporter membrane component	Zinc homeostasis	1	znuB
+STA	sta_sRNA_00141	elaB	-16.26	Stress responses	Stress-induced protein ElaB	Membrane stress / stationary phase	1	elaB
+STA	sta_sRNA_00141	ybfE	-14.15	Stress responses	Predicted oxidoreductase	Oxidative stress response	1	ybfE
+STA	sta_sRNA_00141	recQ	-11.26	Stress responses	ATP-dependent DNA helicase RecQ	DNA repair	1	recQ
+STA	sta_sRNA_00141	alx	-11.12	Stress responses	Predicted inner membrane protein Alx	Alkaline stress response	1	alx
+STA	sta_sRNA_00141	osmF	-10.17	Stress responses	Osmotically inducible protein OsmF	Osmotic stress response	1	osmF
+STA	sta_sRNA_00141	stpA	-10.17	Stress responses	DNA-binding protein StpA (H-NS paralog)	Nucleoid-associated protein / gene regulation	1	stpA
+STA	sta_sRNA_00141	grxA	-10.07	Stress responses	Glutaredoxin 1	Oxidative stress response	1	grxA
+STA	sta_sRNA_00141	htpX	-10.04	Stress responses	Heat shock protein HtpX	Membrane protein quality control	1	htpX
+STA	sta_sRNA_00457	clbJ	-18.32	Biofilm formation	Colibactin biosynthesis protein ClbJ	Genotoxin / virulence	1	clbJ
+STA	sta_sRNA_00457	ecpB	-16.59	Biofilm formation	E. coli common pilus chaperone EcpB	Biofilm / adhesion	1	ecpB
+STA	sta_sRNA_00457	bhsA	-15.78	Biofilm formation	Biofilm-related outer membrane protein BhsA	Biofilm	1	bhsA
+STA	sta_sRNA_00457	fimD	-15.3	Biofilm formation	Fimbrial usher protein FimD	Biofilm / adhesion	1	fimD
+STA	sta_sRNA_00457	mepM	-13.73	Biofilm formation	Murein endopeptidase MepM	Peptidoglycan remodeling	1	mepM
+STA	sta_sRNA_00457	ecpR	-12.95	Biofilm formation	E. coli common pilus regulator EcpR	Biofilm / adhesion	1	ecpR
+STA	sta_sRNA_00457	bssS	-12.83	Biofilm formation	Biofilm formation regulator BssS	Biofilm	1	bssS
+STA	sta_sRNA_00457	bluF	-12.65	Biofilm formation	Blue light-sensing anti-repressor BluF	Biofilm / c-di-GMP signaling	1	bluF
+STA	sta_sRNA_00457	rfaP	-12.19	Biofilm formation	LPS core heptose kinase RfaP	LPS biosynthesis / envelope	1	rfaP
+STA	sta_sRNA_00457	csgB	-12.14	Biofilm formation	Minor curlin subunit CsgB	Biofilm / curli	1	csgB
+STA	sta_sRNA_00457	ecpC	-12.1	Biofilm formation	E. coli common pilus usher EcpC	Biofilm / adhesion	1	ecpC
+STA	sta_sRNA_00457	ecpA	-11.53	Biofilm formation	E. coli common pilus subunit EcpA	Biofilm / adhesion	1	ecpA
+STA	sta_sRNA_00457	rfaQ	-10.77	Biofilm formation	LPS core biosynthesis protein RfaQ	LPS biosynthesis / envelope	1	rfaQ
+STA	sta_sRNA_00457	rfaG	-10.16	Biofilm formation	Lipopolysaccharide core biosynthesis protein RfaG	LPS biosynthesis / envelope	1	rfaG
+STA	sta_sRNA_00457	clbC	-10.1	Biofilm formation	Colibactin biosynthesis protein ClbC	Genotoxin / virulence	1	clbC
+STA	sta_sRNA_00457	nuoN	-15.11	Carbon metabolism	NADH:ubiquinone oxidoreductase subunit N	Respiratory chain	1	nuoN
+STA	sta_sRNA_00457	hycH	-13.47	Carbon metabolism	Hydrogenase-3 maturation protein HycH	Hydrogen metabolism	1	hycH
+STA	sta_sRNA_00457	hycA	-12.46	Carbon metabolism	Hydrogenase-3 maturation factor HycA	Hydrogen metabolism	1	hycA
+STA	sta_sRNA_00457	fadE	-11.54	Carbon metabolism	Acyl-CoA dehydrogenase FadE	Fatty acid beta-oxidation	1	fadE
+STA	sta_sRNA_00457	cyoA	-10.61	Carbon metabolism	Cytochrome bo3 ubiquinol oxidase subunit I	Aerobic respiration	1	cyoA
+STA	sta_sRNA_00457	ybtX	-14.91	Metal ion transport/utilization	Yersiniabactin biosynthesis protein	Iron acquisition / virulence	1	ybtX
+STA	sta_sRNA_00457	ybtQ	-13.9	Metal ion transport/utilization	Yersiniabactin ABC transporter	Iron acquisition / virulence	1	ybtQ
+STA	sta_sRNA_00457	irp9	-13.74	Metal ion transport/utilization	Yersiniabactin biosynthesis enzyme Irp9	Iron acquisition / virulence	1	irp9
+STA	sta_sRNA_00457	fhuA	-13.5	Metal ion transport/utilization	Ferrichrome outer membrane transporter FhuA	Iron acquisition (siderophore)	1	fhuA
+STA	sta_sRNA_00457	zinT	-13.42	Metal ion transport/utilization	Zinc-binding periplasmic protein ZinT	Zinc stress response	1	zinT
+STA	sta_sRNA_00457	fyuA	-13.0	Metal ion transport/utilization	Yersiniabactin receptor FyuA	Siderophore-mediated virulence	1	fyuA
+STA	sta_sRNA_00457	HMWP2	-12.51	Metal ion transport/utilization	High-molecular-weight protein 2 (yersiniabactin)	Iron acquisition / virulence	1	HMWP2
+STA	sta_sRNA_00457	znuA	-11.21	Metal ion transport/utilization	Zinc ABC transporter periplasmic binding protein	Zinc homeostasis	1	znuA
+STA	sta_sRNA_00457	zraP	-10.83	Metal ion transport/utilization	Zinc resistance-associated protein ZraP	Zinc stress response	1	zraP
+STA	sta_sRNA_00457	entH	-10.46	Metal ion transport/utilization	Enterobactin biosynthesis thioesterase EntH	Siderophore biosynthesis	1	entH
+STA	sta_sRNA_00457	znuB	-10.44	Metal ion transport/utilization	Zinc ABC transporter membrane component	Zinc homeostasis	1	znuB
+STA	sta_sRNA_00457	fiu	-10.26	Metal ion transport/utilization	Ferric iron uptake protein Fiu	Iron acquisition	1	fiu
+STA	sta_sRNA_00457	ybtP	-10.0	Metal ion transport/utilization	Yersiniabactin ABC transporter	Iron acquisition / virulence	1	ybtP
+STA	sta_sRNA_00457	uvrD	-22.73	Stress responses	DNA helicase II UvrD	DNA repair	1	uvrD
+STA	sta_sRNA_00457	hslU	-17.81	Stress responses	ATP-dependent protease ATPase subunit HslU	Protein degradation / stress	1	hslU
+STA	sta_sRNA_00457	ybfE	-14.58	Stress responses	Predicted oxidoreductase	Oxidative stress response	1	ybfE
+STA	sta_sRNA_00457	cspA	-13.16	Stress responses	Cold shock protein A	Stress response	1	cspA
+STA	sta_sRNA_00457	ibpA	-12.83	Stress responses	Small heat shock protein IbpA	Heat/oxidative stress	1	ibpA
+STA	sta_sRNA_00457	clpP	-12.17	Stress responses	ATP-dependent Clp protease proteolytic subunit	Protein degradation / stress	1	clpP
+STA	sta_sRNA_00457	stpA	-11.94	Stress responses	DNA-binding protein StpA (H-NS paralog)	Nucleoid-associated protein / gene regulation	1	stpA
+STA	sta_sRNA_00457	recF	-11.92	Stress responses	DNA repair protein RecF	DNA repair / SOS response	1	recF
+STA	sta_sRNA_00457	hspQ	-11.78	Stress responses	Heat shock protein HspQ	Protein quality control / stress	1	hspQ
+STA	sta_sRNA_00457	rstA	-11.77	Stress responses	Response regulator RstA	Two-component signal transduction	1	rstA
+STA	sta_sRNA_00457	osmF	-11.59	Stress responses	Osmotically inducible protein OsmF	Osmotic stress response	1	osmF
+STA	sta_sRNA_00457	osmC	-11.14	Stress responses	Osmotically inducible protein OsmC	Osmotic stress response	1	osmC
+STA	sta_sRNA_00457	elaB	-11.04	Stress responses	Stress-induced protein ElaB	Membrane stress / stationary phase	1	elaB
+STA	sta_sRNA_00457	clpX	-10.84	Stress responses	ATP-dependent Clp protease ATPase subunit ClpX	Protein degradation / stress	1	clpX
+STA	sta_sRNA_00457	rstB	-10.44	Stress responses	Sensor histidine kinase RstB	Two-component signal transduction	1	rstB
+STA	sta_sRNA_00457	htpX	-10.01	Stress responses	Heat shock protein HtpX	Membrane protein quality control	1	htpX
+STA	sta_sRNA_00609	bluF	-15.19	Biofilm formation	Blue light-sensing anti-repressor BluF	Biofilm / c-di-GMP signaling	1	bluF
+STA	sta_sRNA_00609	bssS	-14.47	Biofilm formation	Biofilm formation regulator BssS	Biofilm	1	bssS
+STA	sta_sRNA_00609	fimD	-13.84	Biofilm formation	Fimbrial usher protein FimD	Biofilm / adhesion	1	fimD
+STA	sta_sRNA_00609	csgB	-12.89	Biofilm formation	Minor curlin subunit CsgB	Biofilm / curli	1	csgB
+STA	sta_sRNA_00609	rfaP	-12.36	Biofilm formation	LPS core heptose kinase RfaP	LPS biosynthesis / envelope	1	rfaP
+STA	sta_sRNA_00609	ecpR	-11.74	Biofilm formation	E. coli common pilus regulator EcpR	Biofilm / adhesion	1	ecpR
+STA	sta_sRNA_00609	clbJ	-10.97	Biofilm formation	Colibactin biosynthesis protein ClbJ	Genotoxin / virulence	1	clbJ
+STA	sta_sRNA_00609	rfaG	-10.95	Biofilm formation	Lipopolysaccharide core biosynthesis protein RfaG	LPS biosynthesis / envelope	1	rfaG
+STA	sta_sRNA_00609	bhsA	-10.67	Biofilm formation	Biofilm-related outer membrane protein BhsA	Biofilm	1	bhsA
+STA	sta_sRNA_00609	clbC	-10.35	Biofilm formation	Colibactin biosynthesis protein ClbC	Genotoxin / virulence	1	clbC
+STA	sta_sRNA_00609	mepM	-10.22	Biofilm formation	Murein endopeptidase MepM	Peptidoglycan remodeling	1	mepM
+STA	sta_sRNA_00609	nuoN	-16.56	Carbon metabolism	NADH:ubiquinone oxidoreductase subunit N	Respiratory chain	1	nuoN
+STA	sta_sRNA_00609	hycD	-14.56	Carbon metabolism	Hydrogenase-3 membrane subunit HycD	Hydrogen metabolism	1	hycD
+STA	sta_sRNA_00609	fdhD	-14.35	Carbon metabolism	Formate dehydrogenase accessory protein FdhD	Formate metabolism	1	fdhD
+STA	sta_sRNA_00609	fadE	-13.12	Carbon metabolism	Acyl-CoA dehydrogenase FadE	Fatty acid beta-oxidation	1	fadE
+STA	sta_sRNA_00609	hycH	-12.83	Carbon metabolism	Hydrogenase-3 maturation protein HycH	Hydrogen metabolism	1	hycH
+STA	sta_sRNA_00609	hycA	-12.39	Carbon metabolism	Hydrogenase-3 maturation factor HycA	Hydrogen metabolism	1	hycA
+STA	sta_sRNA_00609	cyoA	-12.27	Carbon metabolism	Cytochrome bo3 ubiquinol oxidase subunit I	Aerobic respiration	1	cyoA
+STA	sta_sRNA_00609	hycE	-10.98	Carbon metabolism	Hydrogenase-3 large subunit HycE	Hydrogen metabolism	1	hycE
+STA	sta_sRNA_00609	nuoB	-10.95	Carbon metabolism	NADH:ubiquinone oxidoreductase subunit B	Respiratory chain	1	nuoB
+STA	sta_sRNA_00609	hycC	-10.2	Carbon metabolism	Hydrogenase-3 membrane subunit HycC	Hydrogen metabolism	1	hycC
+STA	sta_sRNA_00609	irp9	-15.1	Metal ion transport/utilization	Yersiniabactin biosynthesis enzyme Irp9	Iron acquisition / virulence	1	irp9
+STA	sta_sRNA_00609	znuB	-14.99	Metal ion transport/utilization	Zinc ABC transporter membrane component	Zinc homeostasis	1	znuB
+STA	sta_sRNA_00609	ybtX	-11.97	Metal ion transport/utilization	Yersiniabactin biosynthesis protein	Iron acquisition / virulence	1	ybtX
+STA	sta_sRNA_00609	znuA	-11.77	Metal ion transport/utilization	Zinc ABC transporter periplasmic binding protein	Zinc homeostasis	1	znuA
+STA	sta_sRNA_00609	entH	-11.69	Metal ion transport/utilization	Enterobactin biosynthesis thioesterase EntH	Siderophore biosynthesis	1	entH
+STA	sta_sRNA_00609	zinT	-11.34	Metal ion transport/utilization	Zinc-binding periplasmic protein ZinT	Zinc stress response	1	zinT
+STA	sta_sRNA_00609	ybtP	-11.26	Metal ion transport/utilization	Yersiniabactin ABC transporter	Iron acquisition / virulence	1	ybtP
+STA	sta_sRNA_00609	zraP	-10.41	Metal ion transport/utilization	Zinc resistance-associated protein ZraP	Zinc stress response	1	zraP
+STA	sta_sRNA_00609	ybtQ	-10.24	Metal ion transport/utilization	Yersiniabactin ABC transporter	Iron acquisition / virulence	1	ybtQ
+STA	sta_sRNA_00609	znuC	-10.04	Metal ion transport/utilization	Zinc ABC transporter ATP-binding component	Zinc homeostasis	1	znuC
+STA	sta_sRNA_00609	hslU	-16.97	Stress responses	ATP-dependent protease ATPase subunit HslU	Protein degradation / stress	1	hslU
+STA	sta_sRNA_00609	trxC	-14.73	Stress responses	Thioredoxin 2	Oxidative stress response	1	trxC
+STA	sta_sRNA_00609	clpX	-14.64	Stress responses	ATP-dependent Clp protease ATPase subunit ClpX	Protein degradation / stress	1	clpX
+STA	sta_sRNA_00609	rstB	-14.57	Stress responses	Sensor histidine kinase RstB	Two-component signal transduction	1	rstB
+STA	sta_sRNA_00609	osmF	-14.48	Stress responses	Osmotically inducible protein OsmF	Osmotic stress response	1	osmF
+STA	sta_sRNA_00609	dsbG	-14.4	Stress responses	Disulfide bond isomerase G	Oxidative stress / periplasm	1	dsbG
+STA	sta_sRNA_00609	elaB	-13.59	Stress responses	Stress-induced protein ElaB	Membrane stress / stationary phase	1	elaB
+STA	sta_sRNA_00609	cspA	-12.13	Stress responses	Cold shock protein A	Stress response	1	cspA
+STA	sta_sRNA_00609	hspQ	-11.68	Stress responses	Heat shock protein HspQ	Protein quality control / stress	1	hspQ
+STA	sta_sRNA_00609	gadA	-11.56	Stress responses	Glutamate decarboxylase A	Acid stress response (GDAR system)	1	gadA
+STA	sta_sRNA_00609	osmC	-11.19	Stress responses	Osmotically inducible protein OsmC	Osmotic stress response	1	osmC
+STA	sta_sRNA_00609	recQ	-11.18	Stress responses	ATP-dependent DNA helicase RecQ	DNA repair	1	recQ
+STA	sta_sRNA_00609	ibpA	-11.16	Stress responses	Small heat shock protein IbpA	Heat/oxidative stress	1	ibpA
+STA	sta_sRNA_00609	rstA	-10.5	Stress responses	Response regulator RstA	Two-component signal transduction	1	rstA

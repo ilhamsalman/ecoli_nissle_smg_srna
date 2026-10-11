@@ -1,0 +1,381 @@
+==============================================================================
+PHASE: EXP
+==============================================================================
+
+sRNA: exp_sRNA_03878
+  Total phase-matched target genes: 64
+  Target genes with ΔG <= -10 kcal/mol: 49
+  Prioritized target genes (energy + biological relevance): 34
+  Best ΔG overall: -19.31 kcal/mol
+  Best prioritized ΔG: -19.31 kcal/mol
+  Biofilm formation:
+    ompT               ΔG= -17.29 | Outer membrane protease OmpT | Virulence / proteolysis
+    ecpA               ΔG= -14.72 | E. coli common pilus subunit EcpA | Biofilm / adhesion
+    yhbU               ΔG= -14.44 | Predicted peptidase YhbU | Envelope stress / peptidoglycan
+    ecpR               ΔG= -14.40 | E. coli common pilus regulator EcpR | Biofilm / adhesion
+    ecpB               ΔG= -13.75 | E. coli common pilus chaperone EcpB | Biofilm / adhesion
+    icsS               ΔG= -13.46 | IcsS protein | Virulence / actin motility
+    fimC               ΔG= -13.09 | Fimbrial chaperone FimC | Biofilm / adhesion
+    fimD               ΔG= -11.13 | Fimbrial usher protein FimD | Biofilm / adhesion
+    fimA               ΔG= -10.80 | Major type 1 fimbrial subunit FimA | Biofilm / adhesion
+    fimG               ΔG= -10.53 | Fimbrial protein FimG | Biofilm / adhesion
+  Stress responses:
+    hdeD               ΔG= -18.09 | Acid resistance inner membrane protein | Acid stress response
+    gadB               ΔG= -16.72 | Glutamate decarboxylase B | Acid stress response (GDAR system)
+    gadA               ΔG= -16.69 | Glutamate decarboxylase A | Acid stress response (GDAR system)
+    hdeB               ΔG= -14.58 | Acid resistance protein HdeB | Acid stress response
+    htpG               ΔG= -14.00 | High-temperature protein G (Hsp90 homolog) | Heat stress / chaperone
+    betA               ΔG= -13.28 | Choline dehydrogenase BetA | Osmoprotectant synthesis
+    betI               ΔG= -13.26 | Bet operon transcriptional repressor BetI | Osmoprotectant regulation
+    betT               ΔG= -12.75 | Choline transporter BetT | Osmoprotectant synthesis
+    betB               ΔG= -12.70 | Betaine aldehyde dehydrogenase BetB | Osmoprotectant synthesis
+    cspA               ΔG= -11.66 | Cold shock protein A | Stress response
+  Metal ion transport/utilization:
+    iscU               ΔG= -19.31 | Iron-sulfur cluster assembly scaffold IscU | Iron-sulfur cluster assembly
+    cusA               ΔG= -16.37 | Copper/silver efflux pump CusA | Copper/silver resistance
+    cusB               ΔG= -15.94 | Copper/silver efflux pump CusB | Copper/silver resistance
+    iscA               ΔG= -15.51 | Iron-sulfur cluster assembly protein IscA | Iron-sulfur cluster assembly
+    copA               ΔG= -14.13 | Copper-transporting ATPase CopA | Copper homeostasis
+    cueO               ΔG= -13.34 | Multicopper oxidase CueO | Copper homeostasis
+    feoB               ΔG= -13.29 | Ferrous iron transporter B | Iron acquisition
+    znuA               ΔG= -12.82 | Zinc ABC transporter periplasmic binding protein | Zinc homeostasis
+    zinT               ΔG= -11.00 | Zinc-binding periplasmic protein ZinT | Zinc stress response
+  Carbon metabolism:
+    adhE               ΔG= -15.93 | Alcohol/aldehyde dehydrogenase AdhE | Anaerobic fermentation
+    dcuB               ΔG= -14.77 | Anaerobic C4-dicarboxylate transporter DcuB | Anaerobic metabolism
+    sdhA               ΔG= -14.71 | Succinate dehydrogenase flavoprotein subunit | TCA cycle
+    fumB               ΔG= -13.88 | Fumarate hydratase B (anaerobic) | TCA cycle / anaerobic metabolism
+    mqo                ΔG= -13.07 | Malate:quinone oxidoreductase | TCA cycle
+
+sRNA: exp_sRNA_02037
+  Total phase-matched target genes: 64
+  Target genes with ΔG <= -10 kcal/mol: 43
+  Prioritized target genes (energy + biological relevance): 30
+  Best ΔG overall: -19.11 kcal/mol
+  Best prioritized ΔG: -19.11 kcal/mol
+  Biofilm formation:
+    fimD               ΔG= -19.05 | Fimbrial usher protein FimD | Biofilm / adhesion
+    fimI               ΔG= -15.21 | Fimbrial protein FimI | Biofilm / adhesion
+    ycgR               ΔG= -14.48 | Flagellar brake protein YcgR | c-di-GMP-mediated motility control
+    cheZ               ΔG= -13.35 | Chemotaxis phosphatase CheZ | Chemotaxis / motility
+    yhbU               ΔG= -13.11 | Predicted peptidase YhbU | Envelope stress / peptidoglycan
+    kfiA               ΔG= -12.21 | Polysialic acid biosynthesis protein KfiA | Capsule biosynthesis [2 loci]
+    ecpA               ΔG= -11.53 | E. coli common pilus subunit EcpA | Biofilm / adhesion
+    ecpC               ΔG= -11.34 | E. coli common pilus usher EcpC | Biofilm / adhesion
+    fliC               ΔG= -10.87 | Flagellin FliC | Flagellar motility
+    ecpB               ΔG= -10.64 | E. coli common pilus chaperone EcpB | Biofilm / adhesion
+    ompT               ΔG= -10.49 | Outer membrane protease OmpT | Virulence / proteolysis
+    ecpR               ΔG= -10.19 | E. coli common pilus regulator EcpR | Biofilm / adhesion
+  Stress responses:
+    htpG               ΔG= -14.36 | High-temperature protein G (Hsp90 homolog) | Heat stress / chaperone
+    betT               ΔG= -13.87 | Choline transporter BetT | Osmoprotectant synthesis
+    betA               ΔG= -11.18 | Choline dehydrogenase BetA | Osmoprotectant synthesis
+    betB               ΔG= -10.68 | Betaine aldehyde dehydrogenase BetB | Osmoprotectant synthesis
+    hdeD               ΔG= -10.55 | Acid resistance inner membrane protein | Acid stress response
+    hdeA               ΔG= -10.30 | Acid resistance protein HdeA | Acid stress response
+  Metal ion transport/utilization:
+    cueO               ΔG= -19.11 | Multicopper oxidase CueO | Copper homeostasis
+    iscU               ΔG= -18.24 | Iron-sulfur cluster assembly scaffold IscU | Iron-sulfur cluster assembly
+    iscA               ΔG= -18.10 | Iron-sulfur cluster assembly protein IscA | Iron-sulfur cluster assembly
+    iscR               ΔG= -15.86 | Iron-sulfur cluster regulator IscR | Iron-sulfur cluster assembly
+    znuA               ΔG= -13.83 | Zinc ABC transporter periplasmic binding protein | Zinc homeostasis
+    zinT               ΔG= -13.59 | Zinc-binding periplasmic protein ZinT | Zinc stress response
+    feoB               ΔG= -11.37 | Ferrous iron transporter B | Iron acquisition
+    cusB               ΔG= -10.36 | Copper/silver efflux pump CusB | Copper/silver resistance
+  Carbon metabolism:
+    mqo                ΔG= -13.56 | Malate:quinone oxidoreductase | TCA cycle
+    fumB               ΔG= -11.07 | Fumarate hydratase B (anaerobic) | TCA cycle / anaerobic metabolism
+    dcuB               ΔG= -10.51 | Anaerobic C4-dicarboxylate transporter DcuB | Anaerobic metabolism
+    sdhA               ΔG= -10.24 | Succinate dehydrogenase flavoprotein subunit | TCA cycle
+
+sRNA: exp_sRNA_08297
+  Total phase-matched target genes: 64
+  Target genes with ΔG <= -10 kcal/mol: 37
+  Prioritized target genes (energy + biological relevance): 25
+  Best ΔG overall: -18.23 kcal/mol
+  Best prioritized ΔG: -18.23 kcal/mol
+  Biofilm formation:
+    ecpC               ΔG= -17.73 | E. coli common pilus usher EcpC | Biofilm / adhesion
+    yhbV               ΔG= -16.89 | Predicted peptidase YhbV | Envelope stress / peptidoglycan
+    ycgR               ΔG= -14.49 | Flagellar brake protein YcgR | c-di-GMP-mediated motility control
+    fliC               ΔG= -13.33 | Flagellin FliC | Flagellar motility
+    fimI               ΔG= -12.89 | Fimbrial protein FimI | Biofilm / adhesion
+    ompT               ΔG= -12.56 | Outer membrane protease OmpT | Virulence / proteolysis
+    cheZ               ΔG= -12.04 | Chemotaxis phosphatase CheZ | Chemotaxis / motility
+    ecpB               ΔG= -11.50 | E. coli common pilus chaperone EcpB | Biofilm / adhesion
+    fimC               ΔG= -11.36 | Fimbrial chaperone FimC | Biofilm / adhesion
+    fimA               ΔG= -10.70 | Major type 1 fimbrial subunit FimA | Biofilm / adhesion
+    icsS               ΔG= -10.23 | IcsS protein | Virulence / actin motility
+  Stress responses:
+    cspA               ΔG= -13.97 | Cold shock protein A | Stress response
+    betI               ΔG= -12.35 | Bet operon transcriptional repressor BetI | Osmoprotectant regulation
+    betT               ΔG= -11.78 | Choline transporter BetT | Osmoprotectant synthesis
+    betB               ΔG= -10.72 | Betaine aldehyde dehydrogenase BetB | Osmoprotectant synthesis
+    betA               ΔG= -10.63 | Choline dehydrogenase BetA | Osmoprotectant synthesis
+  Metal ion transport/utilization:
+    cueO               ΔG= -18.20 | Multicopper oxidase CueO | Copper homeostasis
+    copA               ΔG= -13.54 | Copper-transporting ATPase CopA | Copper homeostasis
+    iscR               ΔG= -12.42 | Iron-sulfur cluster regulator IscR | Iron-sulfur cluster assembly
+    feoB               ΔG= -11.72 | Ferrous iron transporter B | Iron acquisition
+    znuA               ΔG= -11.56 | Zinc ABC transporter periplasmic binding protein | Zinc homeostasis
+    iscA               ΔG= -11.22 | Iron-sulfur cluster assembly protein IscA | Iron-sulfur cluster assembly
+  Carbon metabolism:
+    adhE               ΔG= -18.23 | Alcohol/aldehyde dehydrogenase AdhE | Anaerobic fermentation
+    fumB               ΔG= -13.09 | Fumarate hydratase B (anaerobic) | TCA cycle / anaerobic metabolism
+    sdhA               ΔG= -12.68 | Succinate dehydrogenase flavoprotein subunit | TCA cycle
+
+sRNA: exp_sRNA_03858
+  Total phase-matched target genes: 64
+  Target genes with ΔG <= -10 kcal/mol: 26
+  Prioritized target genes (energy + biological relevance): 17
+  Best ΔG overall: -16.35 kcal/mol
+  Best prioritized ΔG: -16.35 kcal/mol
+  Biofilm formation:
+    icsS               ΔG= -16.35 | IcsS protein | Virulence / actin motility
+    fimG               ΔG= -15.43 | Fimbrial protein FimG | Biofilm / adhesion
+    fimD               ΔG= -12.97 | Fimbrial usher protein FimD | Biofilm / adhesion
+    fimC               ΔG= -11.91 | Fimbrial chaperone FimC | Biofilm / adhesion
+    ecpA               ΔG= -11.29 | E. coli common pilus subunit EcpA | Biofilm / adhesion
+    cheZ               ΔG= -11.21 | Chemotaxis phosphatase CheZ | Chemotaxis / motility
+    yhbV               ΔG= -11.02 | Predicted peptidase YhbV | Envelope stress / peptidoglycan
+    ompT               ΔG= -10.67 | Outer membrane protease OmpT | Virulence / proteolysis
+  Stress responses:
+    betB               ΔG= -13.89 | Betaine aldehyde dehydrogenase BetB | Osmoprotectant synthesis
+    hdeA               ΔG= -10.15 | Acid resistance protein HdeA | Acid stress response
+  Metal ion transport/utilization:
+    iscA               ΔG= -12.06 | Iron-sulfur cluster assembly protein IscA | Iron-sulfur cluster assembly
+    cusA               ΔG= -11.68 | Copper/silver efflux pump CusA | Copper/silver resistance
+    iscU               ΔG= -10.78 | Iron-sulfur cluster assembly scaffold IscU | Iron-sulfur cluster assembly
+  Carbon metabolism:
+    mqo                ΔG= -12.72 | Malate:quinone oxidoreductase | TCA cycle
+    sdhA               ΔG= -11.81 | Succinate dehydrogenase flavoprotein subunit | TCA cycle
+    adhE               ΔG= -11.70 | Alcohol/aldehyde dehydrogenase AdhE | Anaerobic fermentation
+    dcuB               ΔG= -11.06 | Anaerobic C4-dicarboxylate transporter DcuB | Anaerobic metabolism
+
+sRNA: exp_sRNA_02718
+  Total phase-matched target genes: 64
+  Target genes with ΔG <= -10 kcal/mol: 17
+  Prioritized target genes (energy + biological relevance): 11
+  Best ΔG overall: -14.92 kcal/mol
+  Best prioritized ΔG: -14.92 kcal/mol
+  Biofilm formation:
+    fimD               ΔG= -13.29 | Fimbrial usher protein FimD | Biofilm / adhesion
+    fimG               ΔG= -12.36 | Fimbrial protein FimG | Biofilm / adhesion
+    fliC               ΔG= -11.69 | Flagellin FliC | Flagellar motility
+    icsS               ΔG= -11.22 | IcsS protein | Virulence / actin motility
+    cheZ               ΔG= -10.10 | Chemotaxis phosphatase CheZ | Chemotaxis / motility
+  Stress responses:
+    htpG               ΔG= -14.92 | High-temperature protein G (Hsp90 homolog) | Heat stress / chaperone
+    betA               ΔG= -12.45 | Choline dehydrogenase BetA | Osmoprotectant synthesis
+    hdeA               ΔG= -11.18 | Acid resistance protein HdeA | Acid stress response
+    betI               ΔG= -10.81 | Bet operon transcriptional repressor BetI | Osmoprotectant regulation
+  Metal ion transport/utilization:
+    znuA               ΔG= -10.82 | Zinc ABC transporter periplasmic binding protein | Zinc homeostasis
+  Carbon metabolism:
+    fumB               ΔG= -11.54 | Fumarate hydratase B (anaerobic) | TCA cycle / anaerobic metabolism
+
+sRNA: exp_sRNA_05517
+  Total phase-matched target genes: 64
+  Target genes with ΔG <= -10 kcal/mol: 13
+  Prioritized target genes (energy + biological relevance): 10
+  Best ΔG overall: -17.41 kcal/mol
+  Best prioritized ΔG: -17.41 kcal/mol
+  Biofilm formation:
+    fimA               ΔG= -15.18 | Major type 1 fimbrial subunit FimA | Biofilm / adhesion
+    fimI               ΔG= -11.96 | Fimbrial protein FimI | Biofilm / adhesion
+    fimD               ΔG= -10.26 | Fimbrial usher protein FimD | Biofilm / adhesion
+  Stress responses:
+    betB               ΔG= -11.25 | Betaine aldehyde dehydrogenase BetB | Osmoprotectant synthesis
+    cspA               ΔG= -10.93 | Cold shock protein A | Stress response
+  Metal ion transport/utilization:
+    zinT               ΔG= -14.25 | Zinc-binding periplasmic protein ZinT | Zinc stress response
+    copA               ΔG= -13.25 | Copper-transporting ATPase CopA | Copper homeostasis
+    cusA               ΔG= -13.20 | Copper/silver efflux pump CusA | Copper/silver resistance
+  Carbon metabolism:
+    dcuB               ΔG= -17.41 | Anaerobic C4-dicarboxylate transporter DcuB | Anaerobic metabolism
+    cyoA               ΔG= -15.56 | Cytochrome bo3 ubiquinol oxidase subunit I | Aerobic respiration
+
+sRNA: exp_sRNA_05518
+  Total phase-matched target genes: 64
+  Target genes with ΔG <= -10 kcal/mol: 13
+  Prioritized target genes (energy + biological relevance): 7
+  Best ΔG overall: -17.50 kcal/mol
+  Best prioritized ΔG: -13.99 kcal/mol
+  Biofilm formation:
+    ecpB               ΔG= -13.99 | E. coli common pilus chaperone EcpB | Biofilm / adhesion
+    ecpR               ΔG= -10.93 | E. coli common pilus regulator EcpR | Biofilm / adhesion
+    ecpC               ΔG= -10.52 | E. coli common pilus usher EcpC | Biofilm / adhesion
+  Stress responses:
+    cspA               ΔG= -10.21 | Cold shock protein A | Stress response
+  Metal ion transport/utilization:
+    cueO               ΔG= -11.68 | Multicopper oxidase CueO | Copper homeostasis
+    iscR               ΔG= -10.82 | Iron-sulfur cluster regulator IscR | Iron-sulfur cluster assembly
+  Carbon metabolism:
+    mqo                ΔG= -10.66 | Malate:quinone oxidoreductase | TCA cycle
+
+sRNA: exp_sRNA_02140
+  Total phase-matched target genes: 64
+  Target genes with ΔG <= -10 kcal/mol: 8
+  Prioritized target genes (energy + biological relevance): 3
+  Best ΔG overall: -12.56 kcal/mol
+  Best prioritized ΔG: -11.67 kcal/mol
+  Biofilm formation:
+    kfiA               ΔG= -10.60 | Polysialic acid biosynthesis protein KfiA | Capsule biosynthesis [2 loci]
+  Stress responses:
+    hdeD               ΔG= -11.67 | Acid resistance inner membrane protein | Acid stress response
+    betA               ΔG= -11.51 | Choline dehydrogenase BetA | Osmoprotectant synthesis
+
+==============================================================================
+PHASE: STA
+==============================================================================
+
+sRNA: sta_sRNA_00457
+  Total phase-matched target genes: 170
+  Target genes with ΔG <= -10 kcal/mol: 119
+  Prioritized target genes (energy + biological relevance): 49
+  Best ΔG overall: -22.73 kcal/mol
+  Best prioritized ΔG: -22.73 kcal/mol
+  Biofilm formation:
+    clbJ               ΔG= -18.32 | Colibactin biosynthesis protein ClbJ | Genotoxin / virulence
+    ecpB               ΔG= -16.59 | E. coli common pilus chaperone EcpB | Biofilm / adhesion
+    bhsA               ΔG= -15.78 | Biofilm-related outer membrane protein BhsA | Biofilm
+    fimD               ΔG= -15.30 | Fimbrial usher protein FimD | Biofilm / adhesion
+    mepM               ΔG= -13.73 | Murein endopeptidase MepM | Peptidoglycan remodeling
+    ecpR               ΔG= -12.95 | E. coli common pilus regulator EcpR | Biofilm / adhesion
+    bssS               ΔG= -12.83 | Biofilm formation regulator BssS | Biofilm
+    bluF               ΔG= -12.65 | Blue light-sensing anti-repressor BluF | Biofilm / c-di-GMP signaling
+    rfaP               ΔG= -12.19 | LPS core heptose kinase RfaP | LPS biosynthesis / envelope
+    csgB               ΔG= -12.14 | Minor curlin subunit CsgB | Biofilm / curli
+    ecpC               ΔG= -12.10 | E. coli common pilus usher EcpC | Biofilm / adhesion
+    ecpA               ΔG= -11.53 | E. coli common pilus subunit EcpA | Biofilm / adhesion
+    rfaQ               ΔG= -10.77 | LPS core biosynthesis protein RfaQ | LPS biosynthesis / envelope
+    rfaG               ΔG= -10.16 | Lipopolysaccharide core biosynthesis protein RfaG | LPS biosynthesis / envelope
+    clbC               ΔG= -10.10 | Colibactin biosynthesis protein ClbC | Genotoxin / virulence
+  Stress responses:
+    uvrD               ΔG= -22.73 | DNA helicase II UvrD | DNA repair
+    hslU               ΔG= -17.81 | ATP-dependent protease ATPase subunit HslU | Protein degradation / stress
+    ybfE               ΔG= -14.58 | Predicted oxidoreductase | Oxidative stress response
+    cspA               ΔG= -13.16 | Cold shock protein A | Stress response
+    ibpA               ΔG= -12.83 | Small heat shock protein IbpA | Heat/oxidative stress
+    clpP               ΔG= -12.17 | ATP-dependent Clp protease proteolytic subunit | Protein degradation / stress
+    stpA               ΔG= -11.94 | DNA-binding protein StpA (H-NS paralog) | Nucleoid-associated protein / gene regulation
+    recF               ΔG= -11.92 | DNA repair protein RecF | DNA repair / SOS response
+    hspQ               ΔG= -11.78 | Heat shock protein HspQ | Protein quality control / stress
+    rstA               ΔG= -11.77 | Response regulator RstA | Two-component signal transduction
+    osmF               ΔG= -11.59 | Osmotically inducible protein OsmF | Osmotic stress response
+    osmC               ΔG= -11.14 | Osmotically inducible protein OsmC | Osmotic stress response
+    elaB               ΔG= -11.04 | Stress-induced protein ElaB | Membrane stress / stationary phase
+    clpX               ΔG= -10.84 | ATP-dependent Clp protease ATPase subunit ClpX | Protein degradation / stress
+    rstB               ΔG= -10.44 | Sensor histidine kinase RstB | Two-component signal transduction
+    htpX               ΔG= -10.01 | Heat shock protein HtpX | Membrane protein quality control
+  Metal ion transport/utilization:
+    ybtX               ΔG= -14.91 | Yersiniabactin biosynthesis protein | Iron acquisition / virulence
+    ybtQ               ΔG= -13.90 | Yersiniabactin ABC transporter | Iron acquisition / virulence
+    irp9               ΔG= -13.74 | Yersiniabactin biosynthesis enzyme Irp9 | Iron acquisition / virulence
+    fhuA               ΔG= -13.50 | Ferrichrome outer membrane transporter FhuA | Iron acquisition (siderophore)
+    zinT               ΔG= -13.42 | Zinc-binding periplasmic protein ZinT | Zinc stress response
+    fyuA               ΔG= -13.00 | Yersiniabactin receptor FyuA | Siderophore-mediated virulence
+    HMWP2              ΔG= -12.51 | High-molecular-weight protein 2 (yersiniabactin) | Iron acquisition / virulence
+    znuA               ΔG= -11.21 | Zinc ABC transporter periplasmic binding protein | Zinc homeostasis
+    zraP               ΔG= -10.83 | Zinc resistance-associated protein ZraP | Zinc stress response
+    entH               ΔG= -10.46 | Enterobactin biosynthesis thioesterase EntH | Siderophore biosynthesis
+    znuB               ΔG= -10.44 | Zinc ABC transporter membrane component | Zinc homeostasis
+    fiu                ΔG= -10.26 | Ferric iron uptake protein Fiu | Iron acquisition
+    ybtP               ΔG= -10.00 | Yersiniabactin ABC transporter | Iron acquisition / virulence
+  Carbon metabolism:
+    nuoN               ΔG= -15.11 | NADH:ubiquinone oxidoreductase subunit N | Respiratory chain
+    hycH               ΔG= -13.47 | Hydrogenase-3 maturation protein HycH | Hydrogen metabolism
+    hycA               ΔG= -12.46 | Hydrogenase-3 maturation factor HycA | Hydrogen metabolism
+    fadE               ΔG= -11.54 | Acyl-CoA dehydrogenase FadE | Fatty acid beta-oxidation
+    cyoA               ΔG= -10.61 | Cytochrome bo3 ubiquinol oxidase subunit I | Aerobic respiration
+
+sRNA: sta_sRNA_00609
+  Total phase-matched target genes: 170
+  Target genes with ΔG <= -10 kcal/mol: 100
+  Prioritized target genes (energy + biological relevance): 45
+  Best ΔG overall: -19.23 kcal/mol
+  Best prioritized ΔG: -16.97 kcal/mol
+  Biofilm formation:
+    bluF               ΔG= -15.19 | Blue light-sensing anti-repressor BluF | Biofilm / c-di-GMP signaling
+    bssS               ΔG= -14.47 | Biofilm formation regulator BssS | Biofilm
+    fimD               ΔG= -13.84 | Fimbrial usher protein FimD | Biofilm / adhesion
+    csgB               ΔG= -12.89 | Minor curlin subunit CsgB | Biofilm / curli
+    rfaP               ΔG= -12.36 | LPS core heptose kinase RfaP | LPS biosynthesis / envelope
+    ecpR               ΔG= -11.74 | E. coli common pilus regulator EcpR | Biofilm / adhesion
+    clbJ               ΔG= -10.97 | Colibactin biosynthesis protein ClbJ | Genotoxin / virulence
+    rfaG               ΔG= -10.95 | Lipopolysaccharide core biosynthesis protein RfaG | LPS biosynthesis / envelope
+    bhsA               ΔG= -10.67 | Biofilm-related outer membrane protein BhsA | Biofilm
+    clbC               ΔG= -10.35 | Colibactin biosynthesis protein ClbC | Genotoxin / virulence
+    mepM               ΔG= -10.22 | Murein endopeptidase MepM | Peptidoglycan remodeling
+  Stress responses:
+    hslU               ΔG= -16.97 | ATP-dependent protease ATPase subunit HslU | Protein degradation / stress
+    trxC               ΔG= -14.73 | Thioredoxin 2 | Oxidative stress response
+    clpX               ΔG= -14.64 | ATP-dependent Clp protease ATPase subunit ClpX | Protein degradation / stress
+    rstB               ΔG= -14.57 | Sensor histidine kinase RstB | Two-component signal transduction
+    osmF               ΔG= -14.48 | Osmotically inducible protein OsmF | Osmotic stress response
+    dsbG               ΔG= -14.40 | Disulfide bond isomerase G | Oxidative stress / periplasm
+    elaB               ΔG= -13.59 | Stress-induced protein ElaB | Membrane stress / stationary phase
+    cspA               ΔG= -12.13 | Cold shock protein A | Stress response
+    hspQ               ΔG= -11.68 | Heat shock protein HspQ | Protein quality control / stress
+    gadA               ΔG= -11.56 | Glutamate decarboxylase A | Acid stress response (GDAR system)
+    osmC               ΔG= -11.19 | Osmotically inducible protein OsmC | Osmotic stress response
+    recQ               ΔG= -11.18 | ATP-dependent DNA helicase RecQ | DNA repair
+    ibpA               ΔG= -11.16 | Small heat shock protein IbpA | Heat/oxidative stress
+    rstA               ΔG= -10.50 | Response regulator RstA | Two-component signal transduction
+  Metal ion transport/utilization:
+    irp9               ΔG= -15.10 | Yersiniabactin biosynthesis enzyme Irp9 | Iron acquisition / virulence
+    znuB               ΔG= -14.99 | Zinc ABC transporter membrane component | Zinc homeostasis
+    ybtX               ΔG= -11.97 | Yersiniabactin biosynthesis protein | Iron acquisition / virulence
+    znuA               ΔG= -11.77 | Zinc ABC transporter periplasmic binding protein | Zinc homeostasis
+    entH               ΔG= -11.69 | Enterobactin biosynthesis thioesterase EntH | Siderophore biosynthesis
+    zinT               ΔG= -11.34 | Zinc-binding periplasmic protein ZinT | Zinc stress response
+    ybtP               ΔG= -11.26 | Yersiniabactin ABC transporter | Iron acquisition / virulence
+    zraP               ΔG= -10.41 | Zinc resistance-associated protein ZraP | Zinc stress response
+    ybtQ               ΔG= -10.24 | Yersiniabactin ABC transporter | Iron acquisition / virulence
+    znuC               ΔG= -10.04 | Zinc ABC transporter ATP-binding component | Zinc homeostasis
+  Carbon metabolism:
+    nuoN               ΔG= -16.56 | NADH:ubiquinone oxidoreductase subunit N | Respiratory chain
+    hycD               ΔG= -14.56 | Hydrogenase-3 membrane subunit HycD | Hydrogen metabolism
+    fdhD               ΔG= -14.35 | Formate dehydrogenase accessory protein FdhD | Formate metabolism
+    fadE               ΔG= -13.12 | Acyl-CoA dehydrogenase FadE | Fatty acid beta-oxidation
+    hycH               ΔG= -12.83 | Hydrogenase-3 maturation protein HycH | Hydrogen metabolism
+    hycA               ΔG= -12.39 | Hydrogenase-3 maturation factor HycA | Hydrogen metabolism
+    cyoA               ΔG= -12.27 | Cytochrome bo3 ubiquinol oxidase subunit I | Aerobic respiration
+    hycE               ΔG= -10.98 | Hydrogenase-3 large subunit HycE | Hydrogen metabolism
+    nuoB               ΔG= -10.95 | NADH:ubiquinone oxidoreductase subunit B | Respiratory chain
+    hycC               ΔG= -10.20 | Hydrogenase-3 membrane subunit HycC | Hydrogen metabolism
+
+sRNA: sta_sRNA_00141
+  Total phase-matched target genes: 170
+  Target genes with ΔG <= -10 kcal/mol: 51
+  Prioritized target genes (energy + biological relevance): 23
+  Best ΔG overall: -21.91 kcal/mol
+  Best prioritized ΔG: -20.53 kcal/mol
+  Biofilm formation:
+    rfaP               ΔG= -20.53 | LPS core heptose kinase RfaP | LPS biosynthesis / envelope
+    bhsA               ΔG= -14.58 | Biofilm-related outer membrane protein BhsA | Biofilm
+    csgB               ΔG= -12.18 | Minor curlin subunit CsgB | Biofilm / curli
+    clbC               ΔG= -10.55 | Colibactin biosynthesis protein ClbC | Genotoxin / virulence
+    csgA               ΔG= -10.16 | Major curlin subunit CsgA | Biofilm / curli
+    ecpC               ΔG= -10.01 | E. coli common pilus usher EcpC | Biofilm / adhesion
+  Stress responses:
+    elaB               ΔG= -16.26 | Stress-induced protein ElaB | Membrane stress / stationary phase
+    ybfE               ΔG= -14.15 | Predicted oxidoreductase | Oxidative stress response
+    recQ               ΔG= -11.26 | ATP-dependent DNA helicase RecQ | DNA repair
+    alx                ΔG= -11.12 | Predicted inner membrane protein Alx | Alkaline stress response
+    osmF               ΔG= -10.17 | Osmotically inducible protein OsmF | Osmotic stress response
+    stpA               ΔG= -10.17 | DNA-binding protein StpA (H-NS paralog) | Nucleoid-associated protein / gene regulation
+    grxA               ΔG= -10.07 | Glutaredoxin 1 | Oxidative stress response
+    htpX               ΔG= -10.04 | Heat shock protein HtpX | Membrane protein quality control
+  Metal ion transport/utilization:
+    fyuA               ΔG= -14.03 | Yersiniabactin receptor FyuA | Siderophore-mediated virulence
+    ybtP               ΔG= -13.17 | Yersiniabactin ABC transporter | Iron acquisition / virulence
+    zinT               ΔG= -12.74 | Zinc-binding periplasmic protein ZinT | Zinc stress response
+    znuB               ΔG= -10.06 | Zinc ABC transporter membrane component | Zinc homeostasis
+  Carbon metabolism:
+    hycD               ΔG= -13.56 | Hydrogenase-3 membrane subunit HycD | Hydrogen metabolism
+    fdhD               ΔG= -12.15 | Formate dehydrogenase accessory protein FdhD | Formate metabolism
+    nuoB               ΔG= -11.63 | NADH:ubiquinone oxidoreductase subunit B | Respiratory chain
+    hycC               ΔG= -10.16 | Hydrogenase-3 membrane subunit HycC | Hydrogen metabolism
+    hycE               ΔG= -10.02 | Hydrogenase-3 large subunit HycE | Hydrogen metabolism
+
